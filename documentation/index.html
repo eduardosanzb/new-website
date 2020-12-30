@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Reton - React Next Multipurpose Portfolio Landing Page Template</title>
+
+        <!-- Styles -->
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+
+        <!-- Scripts -->
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+        <!-- Sidebar -->
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#introduction" title="Introduction">Introduction</a></li>
+                <li><a href="#getting_started" title="Setup Development Envrionment">Setup Development Environment</a></li>
+                <li><a href="#documenter_cover">Pages and Components Info</a></li>
+                <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+                <li><a href="#change_layout" title="Change Default Home Page">Change Default Home Page</a></li>
+                <li><a href="#fonts_used" title="Fonts">Fonts</a></li>
+				<li><a href="#run_scss_file" title="Color Change Option">SCSS File</a></li>
+                <li><a href="#send_demo_images" title="Fonts">Real Demo Images</a></li>
+                <li><a href="#Contact_Form_Setup" title="Fonts">Contact Form Setup</a></li>
+                <li><a href="#credits" title="Credits">Credits</a></li>
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+        <!-- END Sidebar -->
+
+        <header class="site-header navbar-transparent"> 
+            <!-- Banner -->
+            <div class="banner auto-size" style="background-color: #455aa2">
+                <div class="container-fluid">
+                    <h1><strong>Reton - React</strong>  Documentation</h1>
+                </div>
+            </div>
+            <!-- END Banner --> 
+        </header>
+        
+        <main class="container-fluid"> 
+            <!-- Main content -->
+            <article class="main-content" role="main">
+                <section id="introduction">
+                    <div class="page-header">
+                        <h3>Introduction</h3>
+                    </div>
+
+                    <p>Reton is a React, Next.js and Bootstrap 4 based Multipurpose templates. This has been built with React, ES6+ and as framework Next.js! Reton is a creative responsive template purposely designed and built for Multipurpose Portfolio Landing Page Template.</p>
+                </section>
+
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Setup Development Environment</h3>
+                    </div>
+                    <p>
+                        To kickstart the development of the web app with Reton, at first need to setup the react development environment.
+                    </p>
+                    <p>Following tools are needed to setup a react dev environment:</p>
+                    <ul>
+                        <li><b>Node JS</b></li>
+                        <p>
+                            NodeJS works as a node package manager behind the scene. It is recommended to download and install the latest version of Node JS from its official site <a href="http://nodejs.org/" target="_blank">http://nodejs.org/</a>
+                        </p>
+                    </ul>
+                    
+                    <div class="page-header">
+                        <h3>Preparation</h3>
+                    </div>
+
+                    <p>
+                        You'll need to install <a href="https://nodejs.org/en/" target="_blank">Node.js >=v12.18+ (Recommended Version)</a> (NPM comes along with it) and serve (a NPM package)
+                    </p>
+
+                    <p>Use command line tool i.e. PowerShell or terminal and navigate to the project(Plaon) root. This is PowerShell in windows and terminal on mac/linux.</p>
+
+                    <strong>Let's have a look on the setup process:</strong> <br>
+                    <p>Use terminal and navigate to the project root.</p>
+                    <p>Then run : <code class="language-markup">npm install</code></p>
+                    <p>Then run : <code class="language-markup">npm run dev</code></p>
+                    <p>It'll return something like this in the console:</p>
+                    <p>> project@1.0.0 dev drive:\project</p>
+                    <p>> next</p>
+                    <p>[ wait ] starting the development server ...</p>
+                    <p>[ ready ] started server on http://localhost:3000 ...</p>
+                    <p>[ event ] compiled successfully</p>
+                    <p>Now, in the browser go to <a href="http://localhost:3000/">localhost:3000</a></p>
+					
+                    <div class="page-header">
+                        <h3>For Production Build</h3>
+                    </div>
+                    <p>Run : <code class="language-markup">npm run build</code></p>
+                    <p>Then Run : <code class="language-markup">npm run start</code></p>
+                    <p>See the official next.js doc <a href="https://nextjs.org/docs/deployment#other-hosting-options" target="_blank">here</a></p>
+                </section>
+
+                <section id="documenter_cover">
+                    <div class="page-header">
+                        <h3>Pages and Components Info</h3>
+                    </div>
+                    
+                    <div id="documenter_buttons"> </div>
+					<ul>
+						<li>Landing Page One (<b>/pages/index.js</b>)</li>
+						<li>Landing Page Two (<b>/pages/index-2.js</b>)</li>
+						<li>Landing Page Three (<b>/pages/index-3.js</b>)</li>
+						<li>Landing Page Four (<b>/pages/index-4.js</b>)</li>
+						<li>Landing Page Five (<b>/pages/index-5.js</b>)</li>
+						<li>Landing Page Six (<b>/pages/index-6.js</b>)</li>
+					</ul>
+		
+                    <h6 style="margin-top:20px"><strong>Common Components:</strong></h6>
+                    <ul>
+                        <li>Layout (<b>/components/_App/Layout.js</b>)</li>
+                        <li>GoTop (<b>/components/_App/GoTop.js</b>)</li>
+                        <li>Preloader (<b>/components/_App/Preloader.js</b>)</li>
+                        <li>Sidebar Demos Modal (<b>/components/_App/SidebarDemosModal.js</b>)</li>
+                   
+                        <li>Navbar (<b>/components/LandingPageOne/Navbar.js</b>)</li>
+                        <li>MainBanner (<b>/components/LandingPageOne/MainBanner.js</b>)</li>
+                        <li>Footer (<b>/components/LandingPageOne/Footer.js</b>)</li>
+						<li>Etc....</li>
+						
+						<li>Navbar (<b>/components/LandingPageTwo/Navbar.js</b>)</li>
+						<li>MainBanner (<b>/components/LandingPageTwo/MainBanner.js</b>)</li>
+                        <li>Footer (<b>/components/LandingPageTwo/Footer.js</b>)</li>
+						<li>Etc....</li>
+						
+						<li>Navbar (<b>/components/LandingPageThree/Navbar.js</b>)</li>
+						<li>MainBanner (<b>/components/LandingPageThree/MainBanner.js</b>)</li>
+                        <li>Footer (<b>/components/LandingPageThree/Footer.js</b>)</li>
+						<li>Etc....</li>
+						
+						<li>Navbar (<b>/components/LandingPageFour/Navbar.js</b>)</li>
+						<li>MainBanner (<b>/components/LandingPageFour/MainBanner.js</b>)</li>
+                        <li>Footer (<b>/components/LandingPageFour/Footer.js</b>)</li>
+						<li>Etc....</li>
+						
+						<li>Navbar (<b>/components/LandingPageFive/Navbar.js</b>)</li>
+						<li>MainBanner (<b>/components/LandingPageFive/MainBanner.js</b>)</li>
+                        <li>Footer (<b>/components/LandingPageFive/Footer.js</b>)</li>
+						<li>Etc....</li>
+						
+						<li>Navbar (<b>/components/LandingPageSix/Navbar.js</b>)</li>
+						<li>MainBanner (<b>/components/LandingPageSix/MainBanner.js</b>)</li>
+                        <li>Footer (<b>/components/LandingPageSix/Footer.js</b>)</li>
+						<li>Etc....</li>
+                    </ul>
+                    
+                    <h6 style="margin-top:20px"><strong>Template Features:</strong></h6>
+                    <ul>
+                        <li>ES6+</li>
+                        <li>React JS 17.1+</li>
+                        <li>Next JS 9.5+</li>
+                        <li>Bootstrap v4.5.x</li>
+                        <li>Simple client-side routing (page based)</li>
+                        <li>Easy Customization</li>
+                        <li>React Modal Video</li>
+                    </ul>
+                </section>
+
+                <section id="dependencies">
+                    <div class="page-header">
+                        <h3>Dependencies</h3>
+                    </div>
+                    <p> Here are the <strong>dependencies</strong> list which being used in the Reton React Template:</p>
+                    <pre class="line-numbers">
+<code class="language-markup"> 
+"dependencies": {
+	"axios": "^0.21.0",
+	"next": "^9.5.5",
+	"nodemailer": "^6.4.14",
+	"nodemailer-sendgrid-transport": "^0.2.0",
+	"react": "^17.0.1",
+	"react-anchor-link-smooth-scroll": "^1.0.12",
+	"react-datepicker": "^3.3.0",
+	"react-dom": "^17.0.1",
+	"react-hook-form": "^6.9.6",
+	"react-modal-video": "^1.2.6",
+	"react-owl-carousel3": "^2.2.5",
+	"sass": "^1.27.0",
+	"sweetalert2": "^10.8.1",
+	"sweetalert2-react-content": "^3.2.1"
+}
+</code>
+                    </pre class="brush:css">
+                </section>
+
+                <section id="change_layout">
+                    <div class="page-header">
+                        <h3>Change Default Home Page</h3>
+                    </div>
+                    <p>The default home page is <code class="language-markup">index.js</code> which placed in <code class="language-markup">/pages/index.js</code> if you want change this default to home page two as default home then just take backup your <code class="language-markup">index.js</code> & make <code class="language-markup">home-two.js</code> to <code class="language-markup">index.js</code> & that is.</p>
+                </section>
+			 
+				<section id="fonts_used">
+                    <div class="page-header">
+                        <h3>Fonts Used & Main Color Change</h3>
+                    </div>
+                    <p> By default, the template loads <strong>Open+Sans and Poppins</strong> font from Google Web Font Services, you can change the font with the one that suits you best. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p></p>
+                    <p>You will find the font code in the &quot;<strong>style.scss</strong> file: <code class="language-css">public/css/style.scss</code></p>
+                    <pre class="line-numbers">
+<code class="language-css">
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+$common-font: 'Open Sans', sans-serif;
+$heading-font: 'Poppins', sans-serif;
+
+$main-color: #171717;
+$paragraph-color: #757575;
+$white-color: #fff;
+$orange-color: #F68338;
+$yellow-color: #FDDB3A;
+$blue-color: #5C2CFF;
+$pink-color: #ED2C66;
+$grey-color: #B7B7B7;
+$green-color: #4BFFA5;
+</code>
+                    </pre>
+					<p><b>Note:</b> After SCSS file run then it will be work</p>
+                </section>
+				
+				<section id="run_scss_file">
+                    <div class="page-header">
+                        <h3>How to Run The SCSS File</h3>
+                    </div>
+                    
+					<p>Please open the file Visual Studio Code Editor. And follow the video tutorial.</p>
+					<p>Here the Link: <a href="https://www.youtube.com/watch?v=0MWmv1Gvv5w" target="_blank">https://www.youtube.com/watch?v=0MWmv1Gvv5w</a></p>
+                </section>
+				
+				<section id="send_demo_images">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">Do You Want Real Demo Images?</h3>
+                    </div>
+                    <p>Due to the Envato policy, we are unable to include demo images inside download bundle so for demo images please send us an email to <a href="mailto:hello@hibootstrap.com">hello@hibootstrap.com</a></p>
+                </section>
+				
+				<section id="Contact_Form_Setup">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">Contact Form Setup</h3>
+                    </div>
+                    <p>
+						Please create the SendGrid API key follow the below link: <br>
+						
+						<a href="https://sendgrid.com/docs/ui/account-and-settings/api-keys/" target="_blank">https://sendgrid.com/docs/ui/account-and-settings/api-keys/</a>
+					</p>
+				 
+                    <p>Please follow the screenshot instruction file path: pages/api/contact.js</p>
+					
+					<img src="img/email.png" >
+                </section>
+                
+                <section id="credits">
+                    <div class="page-header">
+                        <h3>Credits</h3>
+                    </div>
+                    <strong>Images</strong><br>
+                    <a href="https://unsplash.com/" target="_blank">Unsplash</a><br />
+                    <a href="https://burst.shopify.com/" target="_blank">Burst</a><br />
+                    <a href="https://www.freepik.com/" target="_blank">Freepick</a><br />
+
+                    <div class="height-15"></div>
+
+                    <strong>Packages</strong><br>
+                    
+                    <a href="https://www.npmjs.com/package/react" target="_blank">React</a><br />
+                    <a href="https://www.npmjs.com/package/next" target="_blank">Next.js</a><br />
+                    <a href="https://expressjs.com/" target="_blank">Express JS</a><br />
+                    <a href="https://www.npmjs.com/package/react-dom" target="_blank">ReactDom</a><br />
+                    <a href="https://www.npmjs.com/package/react-modal-video" target="_blank">react-modal-video</a><br />
+                    <a href="https://fonts.google.com/" target="_blank">Google Fonts</a><br />
+                    <a href="https://github.com/springload/react-accessible-accordion" target="_blank">react-accessible-accordion</a><br />
+                </section>
+                
+                <section id="supports">
+                    <div class="page-header">
+                        <h3>Support</h3>
+                    </div>
+                    <p> If you have any questions, please use our profile contact form on Envato ( <a target="_blank" href="https://themeforest.net/user/hibootstrap">https://themeforest.net/user/hibootstrap</a> ). <br>
+                    We aim to answer all questions within <strong>24 hours</strong> . In some cases the waiting time can be extended to <strong>48 hours.</strong></p>
+                    <p>Email: <a href="mailto:hello@hibootstrap.com">hello@hibootstrap.com</a></p>
+                </section>
+            </article>
+            <!-- END Main content --> 
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; 2020. All right reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="footer-menu">
+                            <li><a href="mailto:hello@hibootstrap.com">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END Footer -->
+    </body>
+</html>
