@@ -15,7 +15,7 @@ const About = () => {
             <p>
               I was born in 1993 and grew up in Puebla, 🇲🇽. After graduating as
               a software engineer I decided to move to Berlin 🇩🇪 the land of
-              techno & bad weather. I freaking 💖 it.
+              techno & cold weather. I freaking 💖 it.
             </p>
           </div>
           <div className="row">

@@ -94,10 +94,45 @@ const MyExperience = () => {
             </ul>
           </div>
 
-          <p>
-            I have also done many freelance work alongside with the company's
-            work which helps me to upgrade my skills and passion.
-          </p>
+          <div className="experience-inner">
+            <ul className="align-items-center align-items-start">
+              <li>
+                <span>2016</span>
+              </li>
+              <li>
+                <span>
+                  Software Engineer Jr,{" "}
+                  <Link href="http://www.lucasianmexico.com/">
+                    <a target="_blank">Lucasian Labs México S.C. </a>
+                  </Link>
+                </span>
+              </li>
+              <li>
+                <p>
+                  A boutique enterprise & governmental software company with
+                  offices in Mexico city
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="experience-inner">
+            <ul className="align-items-center align-items-start">
+              <li>
+                <span>2015</span>
+              </li>
+              <li>
+                <span>
+                  Software Engineer Internship,{" "}
+                  <Link href="https://www.linkedin.com/company/weetsi-com/about/">
+                    <a target="_blank">Weetsi Solutions</a>
+                  </Link>
+                </span>
+              </li>
+              <li>
+                <p>Enterprise and consumer mobile app development company</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

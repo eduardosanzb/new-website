@@ -22,48 +22,49 @@ const WhatIDo = () => {
                 <a target="_blank">Web development</a>
               </h3>
               <p>
-                full stack dev specialized in react, react-native, node and go.
+                Full stack dev specialized in react, react-native, node and go
               </p>
             </div>
           </div>
 
           <div className="col-sm-6 col-lg-6">
             <div className="what-item">
-              <i className="flaticon-smartphone icon"></i>
+              <i class="bx bxs-mobile bx-tada icon"></i>
+
               <h3>
-                <a target="_blank">Software design & architecture</a>
+                <a target="_blank">Software architecture</a>
               </h3>
               <p>
-                I'm always pursuing clean code & clean architecture!{" "}
-                <strong>interfaces for all!!!</strong>
+                Looking for a balance in speed, performance & scalability. The
+                problem defines the pattern, 3factor, DDD, micro*, etc.
               </p>
             </div>
           </div>
 
           <div className="col-sm-6 col-lg-6">
             <div className="what-item">
-              <i className="flaticon-paintbrush icon"></i>
+              <i class="bx bxs-analyse bx-spin icon"></i>
               <h3>
-                <Link href="/service-details">
-                  <a target="_blank">Agile development</a>
-                </Link>
+                <a target="_blank">Agile development</a>
               </h3>
               <p>
-                Please keep your tasks in the board{" "}
-                <strong>UP TO DATE!!</strong>
+                Because the process matters, the ability to quickly iterate is
+                the differentiator between innovation and staling
               </p>
             </div>
           </div>
 
           <div className="col-sm-6 col-lg-6">
             <div className="what-item">
-              <i className="flaticon-branding icon"></i>
+              <i class="bx bxs-check-shield icon"></i>
               <h3>
-                <Link href="/service-details">
-                  <a target="_blank">Testing</a>
-                </Link>
+                <a target="_blank">Testing</a>
               </h3>
-              <p>TDD FTW</p>
+              <p>
+                A professional delivers working code <strong>.</strong> Code
+                that works. Only through testing you can deliver confident code,
+                professional code.
+              </p>
             </div>
           </div>
         </div>
