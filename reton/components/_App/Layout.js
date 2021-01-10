@@ -8,13 +8,13 @@ const Layout = ({ children }) => {
   const [loader, setLoader] = React.useState(false);
 
   React.useEffect(() => {
-    setTimeout(() => setLoader(false), 500);
+    setTimeout(() => setLoader(false), 3000);
   }, []);
 
   return (
     <React.Fragment>
       <Head>
-        <title>😉 Eduardo's Resume </title>
+        <title>🇲🇽 Edu's</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"

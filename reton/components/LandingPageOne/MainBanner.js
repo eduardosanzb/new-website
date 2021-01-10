@@ -1,72 +1,78 @@
-import React from 'react';
-import Link from 'next/link';
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
+const COOL_WORDS = ["tech", "Edu", "Innovation"];
 
 const MainBanner = () => {
-    return (
-        <div id="home" className="banner-area border-bottom">
-            <div className="common-right-text two">
-                <span>RETON</span>
+  const [theWordIndex, setWordIndex] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => {
+      setWordIndex((currentIndex) => {
+        if (currentIndex >= COOL_WORDS.length - 1) {
+          return 0;
+        }
+
+        return currentIndex + 1;
+      });
+    }, 3000);
+
+    return () => clearInterval(id);
+  }, [setWordIndex]);
+  return (
+    <div id="home" className="banner-area border-bottom">
+      <div className="common-right-text">
+        <span>EDUARDO</span>
+      </div>
+
+      <div className="d-table">
+        <div className="d-table-cell">
+          <div className="container">
+            <div className="banner-content">
+              <h1>Eduardo Bautista</h1>
+              <p>
+                Hello I am a passionate <span>Software Engineer</span> excited
+                for innovation & technology. With 5+ years of profound and
+                wide-ranging experience. Expert in developing web & mobile
+                solutions. 🇲🇽 🌮
+              </p>
+
+              <div className="banner-btn-area">
+                <AnchorLink className="common-btn" href="#contact">
+                  Contact With Me
+                </AnchorLink>
+              </div>
+
+              <ul>
+                <li>
+                  <Link href="https://twitter.com/eduardosanzb">
+                    <a target="_blank">
+                      <i className="bx bxl-twitter"></i>
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://www.linkedin.com/in/eduardosanzb/">
+                    <a target="_blank">
+                      <i className="bx bxl-linkedin"></i>
+                    </a>
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="https://github.com/eduardosanzb">
+                    <a target="_blank">
+                      <i className="bx bxl-github"></i>
+                    </a>
+                  </Link>
+                </li>
+              </ul>
             </div>
-
-            <div className="d-table">
-                <div className="d-table-cell">
-                    <div className="container">
-                        <div className="banner-content">
-                            <h1>Reton Milano</h1>
-                            <p>Hello I am a <span>UI/UX Designer</span> from San Francisco. I have rich experience of 5+ years  in web site design and app design, also I am good at extraordinary design concept. I love to hear from you about your unique needs.</p>
-
-                            <div className="banner-btn-area">
-                                <Link href="#">
-                                    <a className="common-btn">Contact With Me</a>
-                                </Link>
-                                <Link href="#">
-                                    <a className="common-btn banner-btn">Hire Me</a>
-                                </Link>
-                            </div>
-
-                            <ul>
-                                <li>
-                                    <Link href="#">
-                                        <a target="_blank">
-                                            <i className='bx bxl-facebook'></i>
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <a target="_blank">
-                                            <i className='bx bxl-twitter'></i>
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <a target="_blank">
-                                            <i className='bx bxl-linkedin'></i>
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <a target="_blank">
-                                            <i className='bx bxl-behance'></i>
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <a target="_blank">
-                                            <i className='bx bxl-dribbble'></i>
-                                        </a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 export default MainBanner;

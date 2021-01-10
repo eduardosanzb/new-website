@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import SidebarDemosModal from "../_App/SidebarDemosModal";
 
 class Navbar extends Component {
   state = {
@@ -122,26 +121,6 @@ class Navbar extends Component {
                     onClick={this.toggleNavbar}
                     offset={() => -1}
                     className="nav-link"
-                    href="#portfolio"
-                  >
-                    Portfolio
-                  </AnchorLink>
-                </li>
-                <li className="nav-item">
-                  <AnchorLink
-                    onClick={this.toggleNavbar}
-                    offset={() => -1}
-                    className="nav-link"
-                    href="#blog"
-                  >
-                    Blog
-                  </AnchorLink>
-                </li>
-                <li className="nav-item">
-                  <AnchorLink
-                    onClick={this.toggleNavbar}
-                    offset={() => -1}
-                    className="nav-link"
                     href="#contact"
                   >
                     Contact
@@ -150,7 +129,10 @@ class Navbar extends Component {
               </ul>
 
               <div className="side-nav">
-                <Link href="#">
+                <Link
+                  href="https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf"
+                  target="_blank"
+                >
                   <a className="common-btn">
                     Download CV <i className="bx bxs-download"></i>
                   </a>
@@ -159,22 +141,6 @@ class Navbar extends Component {
             </div>
           </div>
         </nav>
-
-        {/* Sidebar Demos Modal */}
-        <div className="demo-side-icon">
-          <button
-            type="button"
-            className="modal-btn"
-            onClick={this.toggleModal}
-          >
-            <span>Demos</span>
-          </button>
-        </div>
-
-        <SidebarDemosModal
-          onClick={this.toggleModal}
-          active={this.state.sidebarModal ? "show" : ""}
-        />
       </React.Fragment>
     );
   }
