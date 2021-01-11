@@ -144,6 +144,7 @@ button:focus {
 
 .common-btn:hover {
   color: #e6edf2;
+  stroke: #e6edf2;
 }
 
 .common-btn:hover:before {
@@ -152,6 +153,14 @@ button:focus {
 
 .common-btn:hover:after {
   width: 50%;
+}
+
+.stroke-hover-white path {
+  stroke: #63a4f7 !important;
+}
+
+.stroke-hover-white:hover path {
+  stroke: #e6edf2 !important;
 }
 
 .common-btn.two {
@@ -1528,6 +1537,17 @@ button:focus {
 }
 
 /*-- Banner --*/
+.code-snippet {
+  color: #63a4f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e6edf2;
+}
+
 .banner-area-two {
   background-image: url("/images/banner/banner-bg.jpg");
   background-size: cover;

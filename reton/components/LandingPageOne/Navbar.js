@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import bookmark from "react-useanimations/lib/download";
+import UseAnimations from "react-useanimations";
 
 class Navbar extends Component {
   state = {
@@ -66,6 +68,7 @@ class Navbar extends Component {
     const classTwo = collapsed
       ? "navbar-toggler navbar-toggler-right collapsed"
       : "navbar-toggler navbar-toggler-right";
+
     return (
       <React.Fragment>
         <nav
@@ -129,14 +132,28 @@ class Navbar extends Component {
               </ul>
 
               <div className="side-nav">
-                <Link
-                  href="https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf"
-                  target="_blank"
-                >
-                  <a className="common-btn">
-                    Download CV <i className="bx bxs-download"></i>
-                  </a>
-                </Link>
+                <UseAnimations
+                  reverse
+                  animation={bookmark}
+                  pathCss="stroke: #63a4f7;"
+                  size={25}
+                  render={(eventProps, animationProps) => (
+                    <Link
+                      href="https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf"
+                      target="_blank"
+                    >
+                      <a
+                        className="common-btn stroke-hover-white "
+                        {...eventProps}
+                      >
+                        <span className="d-flex align-items-center">
+                          Download CV
+                          <div {...animationProps} />
+                        </span>
+                      </a>
+                    </Link>
+                  )}
+                />
               </div>
             </div>
           </div>

@@ -23,7 +23,7 @@ const MyExperience = () => {
 
         <div className="experience-content">
           <div className="experience-inner">
-            <ul className="align-items-center">
+            <ul className="align-items-start">
               <li>
                 <span>2018-2021</span>
               </li>
@@ -50,7 +50,7 @@ const MyExperience = () => {
           </div>
 
           <div className="experience-inner">
-            <ul className="align-items-center">
+            <ul className="align-items-start">
               <li>
                 <span>2017-2018</span>
               </li>
@@ -73,7 +73,7 @@ const MyExperience = () => {
           </div>
 
           <div className="experience-inner">
-            <ul className="align-items-center align-items-start">
+            <ul className="align-items-start align-items-start">
               <li>
                 <span>2016-2017</span>
               </li>
@@ -95,7 +95,7 @@ const MyExperience = () => {
           </div>
 
           <div className="experience-inner">
-            <ul className="align-items-center align-items-start">
+            <ul className="align-items-start align-items-start">
               <li>
                 <span>2016</span>
               </li>
@@ -110,13 +110,14 @@ const MyExperience = () => {
               <li>
                 <p>
                   A boutique enterprise & governmental software company with
-                  offices in Mexico city
+                  offices in Mexico city. Mostly angular.js & Java EE with
+                  springboot
                 </p>
               </li>
             </ul>
           </div>
           <div className="experience-inner">
-            <ul className="align-items-center align-items-start">
+            <ul className="align-items-start align-items-start">
               <li>
                 <span>2015</span>
               </li>
@@ -129,7 +130,10 @@ const MyExperience = () => {
                 </span>
               </li>
               <li>
-                <p>Enterprise and consumer mobile app development company</p>
+                <p>
+                  Enterprise and consumer mobile app development company. We
+                  used ionic with angular.js & firebase
+                </p>
               </li>
             </ul>
           </div>

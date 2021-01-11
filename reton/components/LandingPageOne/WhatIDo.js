@@ -61,9 +61,9 @@ const WhatIDo = () => {
                 <a target="_blank">Testing</a>
               </h3>
               <p>
-                A professional delivers working code <strong>.</strong> Code
-                that works. Only through testing you can deliver confident code,
-                professional code.
+                A professional delivers working code. Code that works. Only
+                through testing you can deliver confident code, professional
+                code
               </p>
             </div>
           </div>

@@ -146,6 +146,7 @@ button {
   }
   &:hover {
     color: $white-color;
+    stroke: $white-color;
 
     &:before {
       width: 50%;
@@ -153,6 +154,15 @@ button {
     &:after {
       width: 50%;
     }
+  }
+}
+
+.stroke-hover-white {
+  path {
+    stroke: $orange-color !important;
+  }
+  &:hover path {
+    stroke: $white-color !important;
   }
 }
 .common-btn.two {
@@ -1403,6 +1413,13 @@ button {
 }
 
 /*-- Banner --*/
+
+.code-snippet {
+  color: $orange-color;
+  display: flex;
+  align-items: center;
+  background-color: $white-color;
+}
 .banner-area-two {
   background-image: url("/images/banner/banner-bg.jpg");
   background-size: cover;

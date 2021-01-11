@@ -1,24 +1,27 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-
-const COOL_WORDS = ["tech", "Edu", "Innovation"];
+import bookmark from "react-useanimations/lib/copy";
+import UseAnimations from "react-useanimations";
 
 const MainBanner = () => {
-  const [theWordIndex, setWordIndex] = useState(0);
+  const [active, setActive] = useState(false);
   useEffect(() => {
-    const id = setInterval(() => {
-      setWordIndex((currentIndex) => {
-        if (currentIndex >= COOL_WORDS.length - 1) {
-          return 0;
-        }
+    if (active) {
+      setTimeout(() => {
+        setActive(false);
+      }, 2000);
+    }
+  }, [active, setActive]);
+  const copyAndAnimate = useCallback(() => {
+    const el = document.createElement("input");
+    el.value = "npx eduardosanzb";
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    setActive(true);
+  }, [setActive]);
 
-        return currentIndex + 1;
-      });
-    }, 3000);
-
-    return () => clearInterval(id);
-  }, [setWordIndex]);
   return (
     <div id="home" className="banner-area border-bottom">
       <div className="common-right-text">
@@ -30,18 +33,13 @@ const MainBanner = () => {
           <div className="container">
             <div className="banner-content">
               <h1>Eduardo Bautista</h1>
+
               <p>
                 Hello I am a passionate <span>Software Engineer</span> excited
                 for innovation & technology. With 5+ years of profound and
                 wide-ranging experience. Expert in developing web & mobile
                 solutions. 🇲🇽 🌮
               </p>
-
-              <div className="banner-btn-area">
-                <AnchorLink className="common-btn" href="#contact">
-                  Contact With Me
-                </AnchorLink>
-              </div>
 
               <ul>
                 <li>
@@ -65,6 +63,29 @@ const MainBanner = () => {
                       <i className="bx bxl-github"></i>
                     </a>
                   </Link>
+                </li>
+                <li>
+                  <div className="stroke-hover-white d-flex align-items-center justify-content-around">
+                    <UseAnimations
+                      reverse={active}
+                      animation={bookmark}
+                      pathCss="stroke: #63a4f7;"
+                      size={25}
+                      onClick={copyAndAnimate}
+                      render={(eventProps, animationProps) => (
+                        <div
+                          className="common-btn stroke-hover-white "
+                          onClick={copyAndAnimate}
+                          {...eventProps}
+                        >
+                          <span className="stroke-hover-white d-flex align-items-center justify-content-around">
+                            npx eduardosanzb
+                            <div {...animationProps} />
+                          </span>
+                        </div>
+                      )}
+                    />
+                  </div>
                 </li>
               </ul>
             </div>
