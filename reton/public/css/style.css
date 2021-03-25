@@ -583,7 +583,7 @@ button:focus {
   top: 0;
   z-index: 5;
   width: 500px;
-  height: 100%;
+  height: 100vh;
   background-image: url("/images/banner/banner-main1.webp");
   background-size: cover;
   background-position: top center;
@@ -592,6 +592,7 @@ button:focus {
 
 .main-area .main-left-img img {
   display: none;
+  height: 100%;
 }
 
 .main-area .main-content {
@@ -620,7 +621,7 @@ button:focus {
 }
 
 .banner-area .banner-content h1 {
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 10px;
 }
 
@@ -1611,7 +1612,7 @@ button:focus {
 }
 
 .banner-area-two .banner-content h1 {
-  font-size: 80px;
+  font-size: 60px;
   color: #fddb3a;
   margin-bottom: 30px;
 }
@@ -3957,7 +3958,7 @@ button:focus {
 }
 
 .page-title-area .title-content h1 {
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 15px;
   position: relative;
   z-index: 2;

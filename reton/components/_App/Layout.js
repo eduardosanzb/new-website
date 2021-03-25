@@ -32,10 +32,6 @@ const Layout = ({ children }) => {
           name="twitter:card"
           content="Eduardo's Bautista, come by if you are curious."
         ></meta>
-        <link
-          rel="canonical"
-          href="https://reton-react.hibootstrap.com/"
-        ></link>
       </Head>
 
       {children}

@@ -545,7 +545,7 @@ button {
     top: 0;
     z-index: 5;
     width: 500px;
-    height: 100%;
+    height: 100vh;
     background-image: url("/images/banner/banner-main1.webp");
     background-size: cover;
     background-position: top center;
@@ -553,6 +553,7 @@ button {
 
     img {
       display: none;
+      height: 100%;
     }
   }
   .main-content {
@@ -582,7 +583,7 @@ button {
     margin-top: 50px;
 
     h1 {
-      font-size: 80px;
+      font-size: 60px;
       margin-bottom: 10px;
     }
     p {
@@ -1477,7 +1478,7 @@ button {
       color: $white-color;
     }
     h1 {
-      font-size: 80px;
+      font-size: 60px;
       color: $yellow-color;
       margin-bottom: 30px;
     }
@@ -3821,7 +3822,7 @@ button {
       z-index: -1;
     }
     h1 {
-      font-size: 80px;
+      font-size: 60px;
       margin-bottom: 15px;
       position: relative;
       z-index: 2;

@@ -14,8 +14,12 @@ const About = () => {
             <h2>I'm from Mexico and I love 🌮 & coding</h2>
             <p>
               I was born in 1993 and grew up in Puebla, 🇲🇽. After graduating as
-              a software engineer I decided to move to Berlin 🇩🇪 the land of
-              techno & cold weather. I freaking 💖 it.
+              a software engineer I decided to move to CDMX 🇲🇽 and later on
+              Berlin 🇩🇪 the land of techno & cold weather. I freaking 💖 it.{" "}
+              <i>
+                (Yeah I know, I'm a city boy and I took the midnight train goin'
+                to kotti)
+              </i>
             </p>
           </div>
           <div className="row">

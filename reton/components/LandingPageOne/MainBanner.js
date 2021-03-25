@@ -32,7 +32,10 @@ const MainBanner = () => {
         <div className="d-table-cell">
           <div className="container">
             <div className="banner-content">
-              <h1>Eduardo Bautista</h1>
+              <h1>
+                Eduardo <br />
+                Sánchez Bautista
+              </h1>
 
               <p>
                 Hello I am a passionate <span>Software Engineer</span> excited

@@ -29,7 +29,7 @@ const WhatIDo = () => {
 
           <div className="col-sm-6 col-lg-6">
             <div className="what-item">
-              <i class="bx bxs-mobile bx-tada icon"></i>
+              <i className="bx bxs-mobile bx-tada icon"></i>
 
               <h3>
                 <a target="_blank">Software architecture</a>
@@ -43,7 +43,7 @@ const WhatIDo = () => {
 
           <div className="col-sm-6 col-lg-6">
             <div className="what-item">
-              <i class="bx bxs-analyse bx-spin icon"></i>
+              <i className="bx bxs-analyse bx-spin icon"></i>
               <h3>
                 <a target="_blank">Agile development</a>
               </h3>
@@ -56,7 +56,7 @@ const WhatIDo = () => {
 
           <div className="col-sm-6 col-lg-6">
             <div className="what-item">
-              <i class="bx bxs-check-shield icon"></i>
+              <i className="bx bxs-check-shield icon"></i>
               <h3>
                 <a target="_blank">Testing</a>
               </h3>
