@@ -1,5 +1,5 @@
-import React from "react";
 import Link from "next/link";
+import React from "react";
 
 const MyExperience = () => {
   return (
@@ -25,7 +25,7 @@ const MyExperience = () => {
           <div className="experience-inner">
             <ul className="align-items-start">
               <li>
-                <span>2018-Present</span>
+                <span>2018-2021</span>
               </li>
               <li>
                 <span>
