@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import { useForm } from "react-hook-form";
 import axios from "axios";
 import Link from "next/link";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
+const MySwal = withReactContent(Swal);
 
 const alertContent = () => {
   MySwal.fire({
@@ -162,10 +162,6 @@ const ContactForm = () => {
             <div className="contact-content">
               <div className="top">
                 <ul>
-                  <li>
-                    <span>Phone:</span>
-                    <a href="tel:+4917664298047">+49 176 6429 8047</a>
-                  </li>
                   <li>
                     <span>Email:</span>
                     <a href="mailto:eduardosanzb@gmail.com">

@@ -26,7 +26,7 @@ const MyExperience = () => {
           <div className="experience-inner">
             <ul className="align-items-start">
               <li>
-                <span>2018-2021</span>
+                <span>2021-Present</span>
               </li>
               <li>
                 <span>

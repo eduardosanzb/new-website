@@ -40,10 +40,6 @@ const About = () => {
               <div className="right">
                 <ul>
                   <li>
-                    <span>Phone:</span>
-                    <a href="tel:+4917664298047">+49 176 6429 8047</a>
-                  </li>
-                  <li>
                     <span>Email:</span>
                     <a href="mailto:eduardosanzb@gmail.com">
                       eduardosanzb@gmail.com
