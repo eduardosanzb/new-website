@@ -21,7 +21,35 @@ const MyExperience = () => {
           </p>
         </div>
 
+        {/* BCG  */}
         <div className="experience-content">
+          <div className="experience-inner">
+            <ul className="align-items-start">
+              <li>
+                <span>2018-2021</span>
+              </li>
+              <li>
+                <span>
+                  Lead Engineer,{" "}
+                  <Link href="https://www.linkedin.com/company/tildahealth/">
+                    <a target="_blank">Tilda</a>
+                  </Link>
+                </span>
+              </li>
+              <li>
+                <p>
+                  Finally!!! Serverless +{" "}
+                  <Link href="https://hasura.io/">
+                    <a target="_blank"> Hasura</a>
+                  </Link>{" "}
+                  + NextJS + K8s + Knative
+                </p>
+                <p>A dream stack!!!</p>
+              </li>
+            </ul>
+          </div>
+
+          {/* BCG  */}
           <div className="experience-inner">
             <ul className="align-items-start">
               <li>
@@ -49,6 +77,7 @@ const MyExperience = () => {
             </ul>
           </div>
 
+          {/* Optilizy  */}
           <div className="experience-inner">
             <ul className="align-items-start">
               <li>
