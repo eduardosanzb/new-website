@@ -7,6 +7,9 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import "react-useanimations/lib/bookmark";
 
+import { Analytics } from "@vercel/analytics/dist/react"
+
+
 import "../public/css/style.css";
 import "../public/css/responsive.css";
 
@@ -16,6 +19,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <Layout>
       <Component {...pageProps} />
+    <Analytics />
     </Layout>
   );
 };

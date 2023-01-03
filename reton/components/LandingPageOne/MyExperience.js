@@ -21,12 +21,34 @@ const MyExperience = () => {
           </p>
         </div>
 
-        {/* BCG  */}
+        {/* Unity  */}
         <div className="experience-content">
           <div className="experience-inner">
             <ul className="align-items-start">
               <li>
-                <span>2021-Present</span>
+                <span>2022-Present</span>
+              </li>
+              <li>
+                <span>
+                  Senior Software Engineer,{" "}
+                  <Link href="https://www.linkedin.com/company/unity/">
+                    <a target="_blank">Unity</a>
+                  </Link>
+                </span>
+              </li>
+              <li>
+                <p>Part of the Live-Platform Team; delivering DevExp</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Tilda  */}
+        <div className="experience-content">
+          <div className="experience-inner">
+            <ul className="align-items-start">
+              <li>
+                <span>2021-2021(closed)</span>
               </li>
               <li>
                 <span>
