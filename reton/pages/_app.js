@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import "react-useanimations/lib/bookmark";
 
-import { Analytics } from "@vercel/analytics/dist/react"
+import { Analytics } from "@vercel/analytics/react"
 
 
 import "../public/css/style.css";
