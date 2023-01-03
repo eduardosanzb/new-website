@@ -14,7 +14,6 @@ import "../public/css/responsive.css";
 
 import Layout from "../components/_App/Layout";
 
-console.log(Analytics)
 const MyApp = ({ Component, pageProps }) => {
   return (
     <Layout>
