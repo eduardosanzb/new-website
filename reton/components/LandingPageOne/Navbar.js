@@ -124,6 +124,26 @@ class Navbar extends Component {
                     onClick={this.toggleNavbar}
                     offset={() => -1}
                     className="nav-link"
+                    href="#whatido"
+                  >
+                    Skills
+                  </AnchorLink>
+                </li>
+                <li className="nav-item">
+                  <AnchorLink
+                    onClick={this.toggleNavbar}
+                    offset={() => -1}
+                    className="nav-link"
+                    href="#experience"
+                  >
+                    Experience
+                  </AnchorLink>
+                </li>
+                <li className="nav-item">
+                  <AnchorLink
+                    onClick={this.toggleNavbar}
+                    offset={() => -1}
+                    className="nav-link"
                     href="#contact"
                   >
                     Contact
@@ -139,7 +159,7 @@ class Navbar extends Component {
                   size={25}
                   render={(eventProps, animationProps) => (
                     <Link
-                      href="https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf"
+                      href={this.props.config.cvLink}
                       target="_blank"
                     >
                       <a

@@ -1,0 +1,81 @@
+---
+Navbar:
+  cvLink: https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf
+MainBanner:
+  bigText: AVE
+  firstName: Alberto
+  lastName: Vera Vigil
+  description: "Hello I am a passionate <span>Software Engineer</span> excited\n
+    \     for innovation & technology. With 5+ years of profound and wide-ranging
+    experience. Expert in developing web & mobile solutions. \U0001F1F2\U0001F1FD
+    \U0001F32E "
+  twitter: eduardosanzb
+  linkedin: https://www.linkedin.com/in/eduardosanzb/
+  github: eduardosanzb
+  clipboard: npx eduardosanzb
+About:
+  title: "I'm from Mexico and I love \U0001F32E & coding<"
+  description: "\n      I was born in 1993 and grew up in Puebla, \U0001F1F2\U0001F1FD.
+    After graduating as\n      a software engineer I decided to move to CDMX \U0001F1F2\U0001F1FD
+    and later on\n      Berlin \U0001F1E9\U0001F1EA the land of techno & cold weather.
+    I freaking \U0001F496 it.\n      <i>\n        (Yeah I know, I'm a city boy and
+    I took the midnight train goin'\n        to kotti)\n      </i>\n    "
+  residence: Berlin
+  addiction: "☕️ (CAFÉ)"
+  email: eduardosanzb@gmail.com
+WhatIDo:
+  rows:
+  - - title: Web development
+      description: Full stack dev specialized in react, react-native, node and go
+    - title: Software architecture
+      description: "\n            Looking for a balance in speed, performance & scalability.
+        The\n            problem defines the pattern, 3factor, DDD, micro*, etc.\n
+        \         "
+  - - title: Agile development
+      description: "\n            Because the process matters, the ability to quickly
+        iterate is\n            the differentiator between innovation and staling\n
+        \         "
+    - title: Testing
+      description: "\n           a professional delivers working code. code that works.
+        only\n           through testing you can deliver confident code, professional\n
+        \          code\n          "
+MyExperience:
+  title: I Have <span>8+</span> Years Of Experience
+  description: "\n            Proven ability to adapt & deliver under stressful circumstances\n
+    \           while maintaining the team spirit. Always learning and in pursuit
+    of\n            self growth.\n    "
+  rows:
+  - company: Unity
+    date: 2022 - Present
+    title: Senior Software Engineer
+    linkedin: https://www.linkedin.com/company/unity/
+    description: "<p>Part of the Live-Platform Team; delivering DevExp</p>"
+  - company: Tilda
+    date: 2021 - 2021(closed)
+    title: Lead Software Engineer
+    linkedin: https://www.linkedin.com/company/tildahealth
+  - company: The Boston Consulting Group
+    date: 2018 - 2021
+    title: Lead Engineer
+    linkedin: https://www.linkedin.com/company/bcg-platinion
+  - company: Optilyz
+    date: 2017 - 2018
+    title: Senior Fullstack Developer
+    linkedin: https://www.linkedin.com/company/optilyz
+  - company: Generation (from McKinsey & Company)
+    date: 2016 - 2017
+    title: Software Engineer
+    linkedin: https://www.linkedin.com/company/generationorg
+  - company: Lucasian Labs México S.C.
+    date: '2016'
+    title: Software Engineer Junior
+    linkedin: https://www.linkedin.com/company/lucasian-labs-mexico
+  - company: Weetsi Solutions
+    date: '2015'
+    title: Software Engineer Internship
+    linkedin: https://www.linkedin.com/company/weetsi-com/about/
+ContactForm:
+  email: eduardosanzb@gmail.com
+  twitter: eduardosanzb
+  linkedin: https://www.linkedin.com/in/eduardosanzb/
+  github: eduardosanzb

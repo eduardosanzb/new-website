@@ -3,7 +3,7 @@ import Link from "next/link";
 import bookmark from "react-useanimations/lib/copy";
 import UseAnimations from "react-useanimations";
 
-const MainBanner = () => {
+const MainBanner = ({ config }) => {
   const [active, setActive] = useState(false);
   useEffect(() => {
     if (active) {
@@ -14,9 +14,10 @@ const MainBanner = () => {
   }, [active, setActive]);
   const copyAndAnimate = useCallback(() => {
     const el = document.createElement("input");
-    el.value = "npx eduardosanzb";
+    el.value = config.clipboard;
     document.body.appendChild(el);
     el.select();
+    // TODO update this is deprecated
     document.execCommand("copy");
     document.body.removeChild(el);
     setActive(true);
@@ -24,8 +25,8 @@ const MainBanner = () => {
 
   return (
     <div id="home" className="banner-area border-bottom">
-      <div className="common-right-text">
-        <span>EDUARDO</span>
+      <div className="common-right-text" style={{ top: 300, right: -250 }}>
+        <span>{config.bigText}</span>
       </div>
 
       <div className="d-table">
@@ -33,40 +34,44 @@ const MainBanner = () => {
           <div className="container">
             <div className="banner-content">
               <h1>
-                Eduardo <br />
-                Sánchez Bautista
+                {config.firstName} <br />
+                {config.lastName}
               </h1>
-
-              <p>
-                Hello I am a passionate <span>Software Engineer</span> excited
-                for innovation & technology. With 5+ years of profound and
-                wide-ranging experience. Expert in developing web & mobile
-                solutions. 🇲🇽 🌮
+              <p dangerouslySetInnerHTML={{ __html: config.description }}>
               </p>
 
               <ul>
-                <li>
-                  <Link href="https://twitter.com/eduardosanzb">
+                {config.twitter && (< li >
+                  <Link href={`https://twitter.com/${config.twitter}`}>
                     <a target="_blank">
                       <i className="bx bxl-twitter"></i>
                     </a>
                   </Link>
-                </li>
-                <li>
-                  <Link href="https://www.linkedin.com/in/eduardosanzb/">
-                    <a target="_blank">
-                      <i className="bx bxl-linkedin"></i>
-                    </a>
-                  </Link>
-                </li>
+                </li>)}
+                {
+                  config.linkedin && (
+                    <li>
+                      <Link href={config.linkedin}>
+                        <a target="_blank">
+                          <i className="bx bxl-linkedin"></i>
+                        </a>
+                      </Link>
+                    </li>
+                  )
+                }
+                {
+                  config.github && (
+                    <li>
+                      <Link href="https://github.com/eduardosanzb">
+                        <a target="_blank">
+                          <i className="bx bxl-github"></i>
+                        </a>
+                      </Link>
+                    </li>
 
-                <li>
-                  <Link href="https://github.com/eduardosanzb">
-                    <a target="_blank">
-                      <i className="bx bxl-github"></i>
-                    </a>
-                  </Link>
-                </li>
+                  )
+                }
+
                 <li>
                   <div className="stroke-hover-white d-flex align-items-center justify-content-around">
                     <UseAnimations
@@ -82,7 +87,7 @@ const MainBanner = () => {
                           {...eventProps}
                         >
                           <span className="stroke-hover-white d-flex align-items-center justify-content-around">
-                            npx eduardosanzb
+                            {config.clipboard}
                             <div {...animationProps} />
                           </span>
                         </div>
@@ -95,7 +100,7 @@ const MainBanner = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
