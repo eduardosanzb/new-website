@@ -6,8 +6,8 @@ import WhatIDo from "../components/LandingPageOne/WhatIDo";
 import MyExperience from "../components/LandingPageOne/MyExperience";
 import ContactForm from "../components/LandingPageOne/ContactForm";
 import Footer from "../components/LandingPageOne/Footer";
-import Eduardo from "./eduardo.config";
-import Ave from "./ave.config";
+import Eduardo from "../eduardo.config";
+import Ave from "../ave.config";
 
 const config = process.env.WHO = 'Ave' ? Ave : Eduardo
 const Index = () => {
