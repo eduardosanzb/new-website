@@ -6,11 +6,14 @@ import WhatIDo from "../components/LandingPageOne/WhatIDo";
 import MyExperience from "../components/LandingPageOne/MyExperience";
 import ContactForm from "../components/LandingPageOne/ContactForm";
 import Footer from "../components/LandingPageOne/Footer";
+import Eduardo from "./eduardo.config";
+import Ave from "./ave.config";
 
+const config = process.env.WHO = 'Ave' ? Ave : Eduardo
 const Index = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      <Navbar config={config.Navbar} />
 
       <div className="main-area">
         <div className="main-left-img">
@@ -18,12 +21,12 @@ const Index = () => {
         </div>
 
         <div className="main-content">
-          <MainBanner />
-          <About />
-          <WhatIDo />
-          <MyExperience />
-          <ContactForm />
-          <Footer />
+          <MainBanner config={config.MainBanner} />
+          <About config={config.About} />
+          <WhatIDo config={config.WhatIDo} />
+          <MyExperience config={config.MyExperience} />
+          <ContactForm config={config.ContactForm} />
+          <Footer config={config.Footer} />
         </div>
       </div>
     </React.Fragment>

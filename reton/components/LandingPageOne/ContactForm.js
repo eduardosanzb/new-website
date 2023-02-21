@@ -27,7 +27,7 @@ const INITIAL_STATE = {
   text: "",
 };
 
-const ContactForm = () => {
+const ContactForm = ({ config }) => {
   const [contact, setContact] = useState(INITIAL_STATE);
   const { register, handleSubmit, errors } = useForm();
 
@@ -54,9 +54,6 @@ const ContactForm = () => {
 
   return (
     <div id="contact" className="contact-area border-bottom pt-100 pb-70">
-      <div className="common-right-text">
-        <span>CONTACT</span>
-      </div>
 
       <div className="container">
         <div className="section-title">
@@ -164,8 +161,8 @@ const ContactForm = () => {
                 <ul>
                   <li>
                     <span>Email:</span>
-                    <a href="mailto:eduardosanzb@gmail.com">
-                      eduardosanzb@gmail.com
+                    <a href={`mailto:${config.email}`}>
+                      {config.email}
                     </a>
                   </li>
                 </ul>
@@ -174,14 +171,14 @@ const ContactForm = () => {
               <div className="bottom">
                 <ul>
                   <li>
-                    <Link href="https://twitter.com/eduardosanzb">
+                    <Link href={`https://twitter.com/${config.twitter}`}>
                       <a target="_blank">
                         <i className="bx bxl-twitter"></i>
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.linkedin.com/in/eduardosanzb/">
+                    <Link href={config.linkedin}>
                       <a target="_blank">
                         <i className="bx bxl-linkedin"></i>
                       </a>
@@ -189,7 +186,7 @@ const ContactForm = () => {
                   </li>
 
                   <li>
-                    <Link href="https://github.com/eduardosanzb">
+                    <Link href={`https://github.com/${config.github}`}>
                       <a target="_blank">
                         <i className="bx bxl-github"></i>
                       </a>

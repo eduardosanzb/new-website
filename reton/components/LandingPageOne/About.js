@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const About = ({ config }) => {
   return (
     <div id="about" className="about-area border-bottom ptb-100">
       <div className="common-right-text">
@@ -11,43 +11,48 @@ const About = () => {
         <div className="about-content">
           <div className="section-title">
             <span className="sub-title">ABOUT ME</span>
-            <h2>I'm from Mexico and I love 🌮 & coding</h2>
-            <p>
-              I was born in 1993 and grew up in Puebla, 🇲🇽. After graduating as
-              a software engineer I decided to move to CDMX 🇲🇽 and later on
-              Berlin 🇩🇪 the land of techno & cold weather. I freaking 💖 it.{" "}
-              <i>
-                (Yeah I know, I'm a city boy and I took the midnight train goin'
-                to kotti)
-              </i>
+            <h2>{config.title}</h2>
+            <p dangerouslySetInnerHTML={{ __html: config.description }}>
             </p>
           </div>
           <div className="row">
             <div className="col-sm-6 col-lg-6">
               <div className="left">
                 <ul>
-                  <li>
-                    <span>Residence:</span> Berlin
-                  </li>
-                  <li>
-                    <span>Addiction:</span> ☕️ (CAFÉ)
-                  </li>
+                  {
+                    config.residence && (
+
+                      <li>
+                        <span>Residence:</span> {config.residence}
+                      </li>
+                    )
+                  }
+                  {
+                    config.addiction && (
+
+                      <li>
+                        <span>Addiction:</span>{config.addiction}
+                      </li>
+                    )
+                  }
                 </ul>
               </div>
             </div>
 
-            <div className="col-sm-6 col-lg-6">
-              <div className="right">
-                <ul>
-                  <li>
-                    <span>Email:</span>
-                    <a href="mailto:eduardosanzb@gmail.com">
-                      eduardosanzb@gmail.com
-                    </a>
-                  </li>
-                </ul>
+            {config.email && (
+              <div className="col-sm-6 col-lg-6">
+                <div className="right">
+                  <ul>
+                    <li>
+                      <span>Email:</span>
+                      <a href="mailto:eduardosanzb@gmail.com">
+                        {config.email}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </div>
