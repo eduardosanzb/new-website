@@ -5,9 +5,9 @@ const config = {
     cvLink: "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
   MainBanner: {
-    bigText: "EDUARDO",
-    firstName: "Eduardo",
-    lastName: "Sánchez Bautista",
+    bigText: "AVE",
+    firstName: "Alberto",
+    lastName: "Vera Vigil",
     description: `
       Hello I am a passionate <span>Software Engineer</span> excited
       for innovation & technology. With 5+ years of profound and
