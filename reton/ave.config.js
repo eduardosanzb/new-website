@@ -26,7 +26,7 @@ const config = {
     clipboard: "npx eduardosanzb",
   },
   About: {
-    title: "I'm from Mexico and I love CrossFit, philosophy, hiking & 🌮s",
+    title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮s",
     description: `
     I was born in '91 and grew up in Puebla, Mexico 🇲🇽.
     After I finished studying as an automotive design engineer, I landed a job with Volkswagen, one of the big guys in the car industry. 
@@ -40,12 +40,12 @@ const config = {
     rows: [
       [
         {
-          title: "Web development",
+          title: "Product Development",
           description:
             "Full stack dev specialized in react, react-native, node and go",
         },
         {
-          title: "Software architecture",
+          title: "CAD Design",
           description: `
             Looking for a balance in speed, performance & scalability. The
             problem defines the pattern, 3factor, DDD, micro*, etc.
@@ -54,7 +54,7 @@ const config = {
       ],
       [
         {
-          title: "Agile development",
+          title: "Agile Development",
           description: `
             Because the process matters, the ability to quickly iterate is
             the differentiator between innovation and staling
@@ -63,7 +63,7 @@ const config = {
         {
           title: "Testing",
           description: `
-           a professional delivers working code. code that works. only
+           A professional delivers working code. code that works. only
            through testing you can deliver confident code, professional
            code
           `,
@@ -72,7 +72,7 @@ const config = {
     ],
   },
   MyExperience: {
-    title: "I Have <span>8+</span> Years Of Experience",
+    title: "I Have <span>7+</span> Years Of Experience",
     description: `
             Proven ability to adapt & deliver under stressful circumstances
             while maintaining the team spirit. Always learning and in pursuit of
