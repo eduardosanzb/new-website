@@ -5,7 +5,7 @@ import Preloader from "./Preloader";
 import Eduardo from "../../eduardo.config";
 import Ave from "../../ave.config";
 
-const config = process.env.WHO = 'Ave' ? Ave : Eduardo
+const config = process.env.WHO === 'Ave' ? Ave : Eduardo
 
 const Layout = ({ children }) => {
   // Preloader
