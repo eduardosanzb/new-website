@@ -99,48 +99,15 @@ const config = {
         ),
       },
       {
-        company: "The Boston Consulting Group",
-        date: "2018 - 2021",
-        title: "Lead Engineer",
-        linkedin: "https://www.linkedin.com/company/bcg-platinion",
+        company: "EDAG Puebla",
+        date: "2015 - 2018",
+        title: "CAD Design Engineer",
+        linkedin: "https://mx.edag.com/en/",
         description: () => (
-          <div>
             <p>
-              Multiple projects, each of them is like starting a new job! React,
-              react, react and more react (ofc <strong>typescript</strong>).
-              <Link href="https://hasura.io/">
-                <a target="_blank"> Hasura</a>
-              </Link>
-              💘 , node, go, terraform and a lot of other toys!
+             Design and development of the Doors-in-White for the new Jetta A7 platform and the Passat GP2 facelift.
+             Workstay in Wolfsburg, Germany during 2015-2016. 
             </p>
-          </div>
-        ),
-      },
-      {
-        company: "Optilyz",
-        date: "2017 - 2018",
-        title: "Senior Fullstack Developer",
-        linkedin: "https://www.linkedin.com/company/optilyz",
-        description: () => (
-          <p>
-            A cool marketing platform, manipulating huge amounts of csv using
-            node (lots of stream/Transform) and a very cool react+redux+sagas{" "}
-            <span>`fork()`</span>
-          </p>
-        ),
-      },
-      {
-        company: "Generation (from McKinsey & Company)",
-        date: "2016 - 2017",
-        title: "Software Engineer",
-        linkedin: "https://www.linkedin.com/company/generationorg",
-        description: () => (
-          <p>
-            Started a non-profit program via McKinsey & Company social
-            initiative. Cross working with Strategic consultants, Experts in
-            education, Teachers and Students to develop an educational platform
-            with a microservices architecture. We used node.js & react
-          </p>
         ),
       },
       {
