@@ -19,6 +19,9 @@ const config = {
     I am a passionate Mechanical Engineer excited for innovation & technology.
      With 7+ years of profound and
       wide-ranging experience. Expert in product design and development in the automotive industry.
+
+      Outside of work you can find me in the GYM or at CorssFit competitions.
+      <--- That's me doing (and almost dying in the process) a 140 kilos clean. 
     `,
     linkedin: "https://www.linkedin.com/in/jose-vigil/",
     github: "AveVigil",
