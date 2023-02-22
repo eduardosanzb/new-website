@@ -15,8 +15,7 @@ const config = {
     firstName: "Alberto",
     lastName: "Vera Vigil",
     description: `
-      Hello I am a passionate <span>Software Engineer</span> excited
-      for innovation & technology. With 5+ years of profound and
+     Hola soy un putito. With 5+ years of profound and
       wide-ranging experience. Expert in developing web & mobile
       solutions. 🇲🇽 🌮
     `,
