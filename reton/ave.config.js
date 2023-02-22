@@ -22,13 +22,13 @@ const config = {
       wide-ranging experience. Expert in developing web & mobile
       solutions. 🇲🇽 🌮
     `,
-    twitter: "Ave_Vigil",
+    twitter: "AveVigil",
     linkedin: "https://www.linkedin.com/in/jose-vigil/",
     github: "AveVigil",
     clipboard: "npx eduardosanzb",
   },
   About: {
-    title: "I'm from Mexico and I love CrossFit, philosophy, hiking & 🌮<",
+    title: "I'm from Mexico and I love CrossFit, philosophy, hiking & 🌮s",
     description: `
       I was born in 1991 and grew up in Puebla, 🇲🇽. After graduating as
       an automotive design engineer I decided to move to CDMX 🇲🇽 and later on
@@ -38,9 +38,9 @@ const config = {
         to kotti)
       </i>
     `,
-    residence: "Berlin",
+    residence: "Eindhoven",
     addiction: "☕️ (CAFÉ)",
-    email: "eduardosanzb@gmail.com",
+    email: "a.ve.vigil@gmail.com",
   },
   WhatIDo: {
     rows: [
@@ -172,10 +172,10 @@ const config = {
     ],
   },
   ContactForm: {
-    email: "eduardosanzb@gmail.com",
-    twitter: "eduardosanzb",
-    linkedin: "https://www.linkedin.com/in/eduardosanzb/",
-    github: "eduardosanzb",
+    email: "a.ve.vigil@gmail.com",
+    twitter: "AveVigil",
+    linkedin: "https://www.linkedin.com/in/jose-vigil/",
+    github: "AveVigil",
   },
 };
 
