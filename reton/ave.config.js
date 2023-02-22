@@ -16,11 +16,9 @@ const config = {
     firstName: "Jose Alberto",
     lastName: "Vera Vigil",
     description: `
-     Hola soy un putito y me encanta la poronguita. 
-     estoy muy mamammamamamamaoooooo
-     With 5+ years of profound and
-      wide-ranging experience. Expert in developing web & mobile
-      solutions. 🇲🇽 🌮
+    Hello I am a passionate Mechanical Engineer excited for innovation & technology.
+     With 7+ years of profound and
+      wide-ranging experience. Expert in product design and development in the automotive industry. 🇲🇽 🌮
     `,
     twitter: "AveVigil",
     linkedin: "https://www.linkedin.com/in/jose-vigil/",
