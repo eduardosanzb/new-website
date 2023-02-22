@@ -13,7 +13,7 @@ const config = {
   },
   MainBanner: {
     bigText: "AVE",
-    firstName: "Alberto",
+    firstName: "Jose Alberto",
     lastName: "Vera Vigil",
     description: `
      Hola soy un putito y me encanta la poronguita. 
@@ -22,16 +22,16 @@ const config = {
       wide-ranging experience. Expert in developing web & mobile
       solutions. 🇲🇽 🌮
     `,
-    twitter: "jordanpertesonesunaperra",
-    linkedin: "https://www.linkedin.com/in/eduardosanzb/",
-    github: "eduardosanzb",
+    twitter: "Ave_Vigil",
+    linkedin: "https://www.linkedin.com/in/jose-vigil/",
+    github: "AveVigil",
     clipboard: "npx eduardosanzb",
   },
   About: {
-    title: "I'm from Mexico and I love 🌮 & coding<",
+    title: "I'm from Mexico and I love CrossFit, philosophy, hiking & 🌮<",
     description: `
-      I was born in 1993 and grew up in Puebla, 🇲🇽. After graduating as
-      a software engineer I decided to move to CDMX 🇲🇽 and later on
+      I was born in 1991 and grew up in Puebla, 🇲🇽. After graduating as
+      an automotive design engineer I decided to move to CDMX 🇲🇽 and later on
       Berlin 🇩🇪 the land of techno & cold weather. I freaking 💖 it.
       <i>
         (Yeah I know, I'm a city boy and I took the midnight train goin'
