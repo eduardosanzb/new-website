@@ -85,13 +85,13 @@ const config = {
         title: "Mechanical Engineer",
         linkedin: "https://lightyear.one/",
         // TODO: Add more
-        description: "<p>Part of the Thermal Management System. Delivering the <i>Front Hex Unit.<i></p>",
+        description: "<p>Part of the <strong>Thermal Management System.</strong> Delivering the <i>Front Hex Unit.<i></p>",
       },
       {
-        company: "Tilda",
-        date: "2021 - 2021(closed)",
-        title: "Lead Software Engineer",
-        linkedin: "https://www.linkedin.com/company/tildahealth",
+        company: "EDAG Aguascalientes",
+        date: "2018",
+        title: "Mechanical Engineer",
+        linkedin: "https://mx.edag.com/en/",
         description: "hola ssssoy perra",
       },
       {
