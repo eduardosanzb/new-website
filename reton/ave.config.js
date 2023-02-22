@@ -5,23 +5,24 @@ const config = {
     description: "Ave",
     title: "Mamador",
     title2: "Ave resume",
-    twitter: "Ufff we"
+    twitter: "Ufff we",
   },
   Navbar: {
-    cvLink: "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
+    cvLink:
+      "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
   MainBanner: {
     bigText: "AVE",
     firstName: "Alberto",
     lastName: "Vera Vigil",
     description: `
-     Hola soy un putito. With 5+ years of profound and
+     Hola soy un putito y me encanta la poronguita. With 5+ years of profound and
       wide-ranging experience. Expert in developing web & mobile
       solutions. 🇲🇽 🌮
     `,
     twitter: "eduardosanzb",
     linkedin: "https://www.linkedin.com/in/eduardosanzb/",
-    github: 'eduardosanzb',
+    github: "eduardosanzb",
     clipboard: "npx eduardosanzb",
   },
   About: {
@@ -44,14 +45,15 @@ const config = {
       [
         {
           title: "Web development",
-          description: "Full stack dev specialized in react, react-native, node and go"
+          description:
+            "Full stack dev specialized in react, react-native, node and go",
         },
         {
           title: "Software architecture",
           description: `
             Looking for a balance in speed, performance & scalability. The
             problem defines the pattern, 3factor, DDD, micro*, etc.
-          `
+          `,
         },
       ],
       [
@@ -60,7 +62,7 @@ const config = {
           description: `
             Because the process matters, the ability to quickly iterate is
             the differentiator between innovation and staling
-          `
+          `,
         },
         {
           title: "Testing",
@@ -68,10 +70,10 @@ const config = {
            a professional delivers working code. code that works. only
            through testing you can deliver confident code, professional
            code
-          `
+          `,
         },
-      ]
-    ]
+      ],
+    ],
   },
   MyExperience: {
     title: "I Have <span>8+</span> Years Of Experience",
@@ -115,9 +117,8 @@ const config = {
         description: () => (
           <div>
             <p>
-              Multiple projects, each of them is like starting a new job!
-              React, react, react and more react (ofc{" "}
-              <strong>typescript</strong>).
+              Multiple projects, each of them is like starting a new job! React,
+              react, react and more react (ofc <strong>typescript</strong>).
               <Link href="https://hasura.io/">
                 <a target="_blank"> Hasura</a>
               </Link>
@@ -133,9 +134,9 @@ const config = {
         linkedin: "https://www.linkedin.com/company/optilyz",
         description: () => (
           <p>
-            A cool marketing platform, manipulating huge amounts of csv
-            using node (lots of stream/Transform) and a very cool
-            react+redux+sagas <span>`fork()`</span>
+            A cool marketing platform, manipulating huge amounts of csv using
+            node (lots of stream/Transform) and a very cool react+redux+sagas{" "}
+            <span>`fork()`</span>
           </p>
         ),
       },
@@ -146,10 +147,10 @@ const config = {
         linkedin: "https://www.linkedin.com/company/generationorg",
         description: () => (
           <p>
-            Started a non-profit program via McKinsey & Company social initiative.
-            Cross working with Strategic consultants, Experts in education, Teachers and Students to
-            develop an educational platform with a microservices architecture. We
-            used node.js & react
+            Started a non-profit program via McKinsey & Company social
+            initiative. Cross working with Strategic consultants, Experts in
+            education, Teachers and Students to develop an educational platform
+            with a microservices architecture. We used node.js & react
           </p>
         ),
       },
@@ -160,9 +161,8 @@ const config = {
         linkedin: "https://www.linkedin.com/company/lucasian-labs-mexico",
         description: () => (
           <p>
-            A boutique enterprise & governmental software company with
-            offices in Mexico city. Mostly angular.js & Java EE with
-            springboot
+            A boutique enterprise & governmental software company with offices
+            in Mexico city. Mostly angular.js & Java EE with springboot
           </p>
         ),
       },
@@ -173,19 +173,19 @@ const config = {
         linkedin: "https://www.linkedin.com/company/weetsi-com/about/",
         description: () => (
           <p>
-            Enterprise and consumer mobile app development company. We
-            used ionic with angular.js & firebase
+            Enterprise and consumer mobile app development company. We used
+            ionic with angular.js & firebase
           </p>
         ),
       },
-    ]
+    ],
   },
   ContactForm: {
     email: "eduardosanzb@gmail.com",
     twitter: "eduardosanzb",
     linkedin: "https://www.linkedin.com/in/eduardosanzb/",
-    github: 'eduardosanzb',
+    github: "eduardosanzb",
   },
-}
+};
 
-export default config
+export default config;
