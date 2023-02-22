@@ -98,18 +98,7 @@ const config = {
         date: "2021 - 2021(closed)",
         title: "Lead Software Engineer",
         linkedin: "https://www.linkedin.com/company/tildahealth",
-        description: () => (
-          <div>
-            <p>
-              Finally!!! Serverless +
-              <Link href="https://hasura.io/">
-                <a target="_blank"> Hasura</a>
-              </Link>
-              + NextJS + K8s + Knative
-            </p>
-            <p>A dream stack!!!</p>
-          </div>
-        ),
+        description: "hola ssssoy perra",
       },
       {
         company: "The Boston Consulting Group",
