@@ -1,6 +1,12 @@
 import Link from "next/link";
 
 const config = {
+  Layout: {
+    description: "🇲🇽 Edu's",
+    title: "Mexican Software engineer, focused on web technologies.",
+    title2: "Eduardo's Bautista resume",
+    twitter: "Eduardo's Bautista, come by if you are curious."
+  },
   Navbar: {
     cvLink: "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
@@ -103,7 +109,7 @@ const config = {
         ),
       },
       {
-        
+
         company: "The Boston Consulting Group",
         date: "2018 - 2021",
         title: "Lead Engineer",

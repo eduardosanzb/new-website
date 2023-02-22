@@ -2,6 +2,10 @@ import React from "react";
 import Head from "next/head";
 import GoTop from "./GoTop";
 import Preloader from "./Preloader";
+import Eduardo from "../../eduardo.config";
+import Ave from "../../ave.config";
+
+const config = process.env.WHO = 'Ave' ? Ave : Eduardo
 
 const Layout = ({ children }) => {
   // Preloader
@@ -14,23 +18,23 @@ const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <Head>
-        <title>🇲🇽 Edu's</title>
+        <title>{config.Layout.description}</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta
           name="description"
-          content="Mexican Software engineer, focused on web technologies."
+          content={config.Layout.title}
         />
         <meta
           name="og:title"
           property="og:title"
-          content="Eduardo's Bautista resume"
+          content={config.Layout.title2}
         ></meta>
         <meta
           name="twitter:card"
-          content="Eduardo's Bautista, come by if you are curious."
+          content={config.Layout.twitter}
         ></meta>
       </Head>
 
