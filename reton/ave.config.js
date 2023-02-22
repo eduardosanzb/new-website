@@ -1,6 +1,12 @@
 import Link from "next/link";
 
 const config = {
+  Layout: {
+    description: "Ave",
+    title: "Mamador",
+    title2: "Ave resume",
+    twitter: "Ufff we"
+  },
   Navbar: {
     cvLink: "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
