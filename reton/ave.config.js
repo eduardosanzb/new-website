@@ -84,7 +84,7 @@ const config = {
         title: "Mechanical Engineer",
         linkedin: "https://lightyear.one/",
         // TODO: Add more
-        description: "<p>Part of the <strong>Thermal Management System.</strong> Delivering the <i>Front Hex Unit.</i></p>",
+        description: "<p> Part of the <strong>Thermal Management System.</strong> Delivering the <i>Front Hex Unit.</i> starting from scratch, while working within a multidisciplinary team </p>",
       },
       {
         company: "EDAG Aguascalientes",
@@ -105,7 +105,7 @@ const config = {
         linkedin: "https://mx.edag.com/en/",
         description: () => (
             <p>
-             Design and development of the Doors-in-White for the new Jetta A7 platform and the Passat GP2 facelift.
+             Design and development of the <strong>Doors-in-White</strong> for the new Jetta A7 platform and the Passat GP2 facelift.
              Workstay in Wolfsburg, Germany during 2015-2016. 
             </p>
         ),
