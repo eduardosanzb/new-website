@@ -12,7 +12,7 @@ const config = {
       "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
   MainBanner: {
-    bigText: "AVE",
+    bigText: "Jose Alberto",
     firstName: "Jose Alberto",
     lastName: "Vera Vigil",
     description: `
@@ -42,7 +42,7 @@ const config = {
         {
           title: "Product Development",
           description:
-            "Full stack dev specialized in react, react-native, node and go",
+            "Automotive components develpment, from concept to production.",
         },
         {
           title: "CAD Design",
