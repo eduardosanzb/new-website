@@ -26,7 +26,7 @@ const config = {
   },
   About: {
     title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮",
-    description: () =>(
+    description: `
     <p>
         I was born in 1991 and grew up in Puebla, Mexico.
         After I finished studying as an automotive design engineer, I started working on projects for Volkswagen.
@@ -36,10 +36,10 @@ const config = {
         </p><p>
           That's me doing (and almost dying in the process) a 140 kilos clean.
         </p>
+        `,
     residence: "Eindhoven",
     addiction: "☕️ (ESPRESSO)",
     email: "a.ve.vigil@gmail.com",
-    ),
   },
   WhatIDo: {
     rows: [
