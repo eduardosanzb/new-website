@@ -19,9 +19,6 @@ const config = {
     I am a passionate Mechanical Engineer excited for innovation & technology.
      With 7+ years of profound and
       wide-ranging experience. Expert in product design and development in the automotive industry.
-
-      Outside of work you can find me in the GYM or at CorssFit competitions.
-      <--- That's me doing (and almost dying in the process) a 140 kilos clean. 
     `,
     linkedin: "https://www.linkedin.com/in/jose-vigil/",
     github: "AveVigil",
@@ -33,6 +30,10 @@ const config = {
     I was born in 1991 and grew up in Puebla, Mexico.
     After I finished studying as an automotive design engineer, I started working on projects for Volkswagen. 
     Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.
+
+
+    Outside of work you can find me in the GYM or at CorssFit competitions.
+    <--- That's me doing (and almost dying in the process) a 140 kilos clean. 
     `,
     residence: "Eindhoven",
     addiction: "☕️ (ESPRESSO)",
