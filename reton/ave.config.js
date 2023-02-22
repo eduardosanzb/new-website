@@ -22,7 +22,7 @@ const config = {
       wide-ranging experience. Expert in developing web & mobile
       solutions. 🇲🇽 🌮
     `,
-    twitter: "jordanperteson",
+    twitter: "jordanpertesonesunaperra",
     linkedin: "https://www.linkedin.com/in/eduardosanzb/",
     github: "eduardosanzb",
     clipboard: "npx eduardosanzb",
