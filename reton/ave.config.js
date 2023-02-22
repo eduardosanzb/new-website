@@ -91,7 +91,12 @@ const config = {
         date: "2018",
         title: "Mechanical Engineer",
         linkedin: "https://mx.edag.com/en/",
-        description: "hola ssssoy perra",
+        description: () => (
+          <p>
+            Development of fastening and positioning devices for the integration of the new Mercedes-Benz A-Class 
+            production line into the current Infiniti QX50 production line.
+          </p>
+        ),
       },
       {
         company: "The Boston Consulting Group",
@@ -166,7 +171,6 @@ const config = {
   },
   ContactForm: {
     email: "a.ve.vigil@gmail.com",
-    twitter: "AveVigil",
     linkedin: "https://www.linkedin.com/in/jose-vigil/",
     github: "AveVigil",
   },
