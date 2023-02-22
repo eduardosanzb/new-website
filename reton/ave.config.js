@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const config = {
   Layout: {
-    description: "Jose Alberto Vera Vigil",
+    description: "José Alberto Vera Vigil",
     title: "Resume",
     title2: "Ave Resume",
     twitter: "Ufff we",
@@ -13,7 +13,7 @@ const config = {
   },
   MainBanner: {
     bigText: "ALBERTO",
-    firstName: "Jose Alberto",
+    firstName: "José Alberto",
     lastName: "Vera Vigil",
     description: `
     I am a passionate Mechanical Engineer excited for innovation & technology.
@@ -84,7 +84,7 @@ const config = {
         title: "Mechanical Engineer",
         linkedin: "https://lightyear.one/",
         // TODO: Add more
-        description: "<p>Part of the <strong>Thermal Management System.</strong> Delivering the <i>Front Hex Unit.<i></p>",
+        description: "<p>Part of the <strong>Thermal Management System.</strong> Delivering the <i>Front Hex Unit.</i></p>",
       },
       {
         company: "EDAG Aguascalientes",
