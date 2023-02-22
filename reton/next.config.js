@@ -1,6 +1,7 @@
 const path = require('path')
 
-const imageName = process.env.WHO === 'Ave' ? 'ave' : 'banner-main1'
+const imageName = process.env.NEXT_PUBLIC_WHO === 'Ave' ? 'ave' : 'banner-main1'
+
 module.exports = {
     sassOptions: {
         includePaths: [path.join(__dirname, 'styles')],

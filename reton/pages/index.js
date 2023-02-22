@@ -9,12 +9,10 @@ import Footer from "../components/LandingPageOne/Footer";
 import Eduardo from "../eduardo.config";
 import Ave from "../ave.config";
 
-const config = process.env.WHO === "Ave" ? Ave : Ave;
-const imgUrl = process.env.WHO === "Ave" ? "ave" : "banner-main1";
-
-console.log(config);
-console.log(imgUrl);
 const Index = () => {
+const config = process.env.NEXT_PUBLIC_WHO === 'Ave' ? Ave : Eduardo
+const imgUrl = process.env.NEXT_PUBLIC_WHO === 'Ave' ? 'ave' : 'banner-main1'
+
   return (
     <React.Fragment>
       <Navbar config={config.Navbar} />
