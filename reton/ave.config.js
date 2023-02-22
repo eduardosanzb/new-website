@@ -12,15 +12,14 @@ const config = {
       "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
   MainBanner: {
-    bigText: "Jose Alberto",
+    bigText: "ALBERTO",
     firstName: "Jose Alberto",
     lastName: "Vera Vigil",
     description: `
-    Hello I am a passionate Mechanical Engineer excited for innovation & technology.
+    I am a passionate Mechanical Engineer excited for innovation & technology.
      With 7+ years of profound and
-      wide-ranging experience. Expert in product design and development in the automotive industry. 🇲🇽 🌮
+      wide-ranging experience. Expert in product design and development in the automotive industry.
     `,
-    twitter: "AveVigil",
     linkedin: "https://www.linkedin.com/in/jose-vigil/",
     github: "AveVigil",
     clipboard: "npx AveVigil",
@@ -33,7 +32,7 @@ const config = {
     Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.
     `,
     residence: "Eindhoven",
-    addiction: "☕️ (CAFÉ)",
+    addiction: "☕️ (ESPRESSO)",
     email: "a.ve.vigil@gmail.com",
   },
   WhatIDo: {
