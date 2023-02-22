@@ -46,8 +46,7 @@ const config = {
         {
           title: "CAD Design",
           description: `
-            Looking for a balance in speed, performance & scalability. The
-            problem defines the pattern, 3factor, DDD, micro*, etc.
+            3D modeling & 2D drawings in CATIA V5 and 3DExperience.
           `,
         },
       ],
