@@ -85,7 +85,7 @@ const config = {
         title: "Mechanical Engineer",
         linkedin: "https://lightyear.one/",
         // TODO: Add more
-        description: "<p>Part of the Thermal Management System. Delivering the Front Hex Unit</p>",
+        description: "<p>Part of the Thermal Management System. Delivering the <i>Front Hex Unit.<i></p>",
       },
       {
         company: "Tilda",
