@@ -5,10 +5,9 @@ import Preloader from "./Preloader";
 import Eduardo from "../../eduardo.config";
 import Ave from "../../ave.config";
 
-const config = process.env.WHO === 'Ave' ? Ave : Eduardo
-
 const Layout = ({ children }) => {
   // Preloader
+  const config = process.env.NEXT_PUBLIC_WHO === 'Ave' ? Ave : Eduardo
   const [loader, setLoader] = React.useState(false);
 
   React.useEffect(() => {
