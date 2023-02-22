@@ -23,7 +23,7 @@ const config = {
     twitter: "AveVigil",
     linkedin: "https://www.linkedin.com/in/jose-vigil/",
     github: "AveVigil",
-    clipboard: "npx eduardosanzb",
+    clipboard: "npx AveVigil",
   },
   About: {
     title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮",
