@@ -12,7 +12,7 @@ const config = {
       "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
   MainBanner: {
-    bigText: "JOSE ALBERTO",
+    bigText: "Jose Alberto",
     firstName: "Jose Alberto",
     lastName: "Vera Vigil",
     description: `
