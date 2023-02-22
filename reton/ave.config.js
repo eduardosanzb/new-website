@@ -27,7 +27,7 @@ const config = {
   About: {
     title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮",
     description: () =>(
-    <><p>
+    <div><p>
         I was born in 1991 and grew up in Puebla, Mexico.
         After I finished studying as an automotive design engineer, I started working on projects for Volkswagen.
         Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.
@@ -35,7 +35,7 @@ const config = {
           Outside of work you can find me in the GYM or at CorssFit competitions.
         </p><p>
           That's me doing (and almost dying in the process) a 140 kilos clean.
-        </p></>
+        </p></div>
     ),
     residence: "Eindhoven",
     addiction: "☕️ (ESPRESSO)",
