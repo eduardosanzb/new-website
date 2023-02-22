@@ -55,7 +55,7 @@ const config = {
           title: "Agile Development",
           description: `
             Because the process matters, the ability to quickly iterate is
-            the differentiator between innovation and staling
+            the differentiator between innovation and staling.
           `,
         },
         {
