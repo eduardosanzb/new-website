@@ -84,7 +84,8 @@ const config = {
         title: "Mechanical Engineer",
         linkedin: "https://lightyear.one/",
         // TODO: Add more
-        description: "<p> Part of the <strong>Thermal Management System.</strong> Delivering the <i>Front Hex Unit.</i> starting from scratch, while working within a multidisciplinary team </p>",
+        description: "<p> Part of the <strong>Thermal Management System.</strong> Delivering the <i>Front Hex Unit</i> starting from scratch, while working within a multidisciplinary & driven team.
+        Built several driving prototyes. </p>",
       },
       {
         company: "EDAG Aguascalientes",
