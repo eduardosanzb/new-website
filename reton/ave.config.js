@@ -28,9 +28,9 @@ const config = {
   About: {
     title: "I'm from Mexico and I love CrossFit, philosophy, hiking & 🌮s",
     description: `
-      I was born in 1991 and grew up in Puebla, 🇲🇽. After graduating as
-      an automotive design engineer I started to work for one of the big guys, Volkswagen and later on
-      joined an amazing project at Lightyear, developing the world's first long-range production-ready solar electric vehicle.
+    I was born in '91 and grew up in Puebla, Mexico 🇲🇽.
+    After I finished studying as an automotive design engineer, I landed a job with Volkswagen, one of the big guys in the car industry. 
+    Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.
     `,
     residence: "Eindhoven",
     addiction: "☕️ (CAFÉ)",
