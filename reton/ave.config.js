@@ -26,9 +26,9 @@ const config = {
     clipboard: "npx eduardosanzb",
   },
   About: {
-    title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮s",
+    title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮",
     description: `
-    I was born in '91 and grew up in Puebla, Mexico 🇲🇽.
+    I was born in '91 and grew up in Puebla, Mexico.
     After I finished studying as an automotive design engineer, I landed a job with Volkswagen, one of the big guys in the car industry. 
     Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.
     `,
@@ -80,12 +80,12 @@ const config = {
     `,
     rows: [
       {
-        company: "Unity",
-        date: "2022 - Present",
-        title: "Senior Software Engineer",
-        linkedin: "https://www.linkedin.com/company/unity/",
+        company: "Lightyear",
+        date: "2018 - Present",
+        title: "Mechanical Engineer",
+        website: "https://lightyear.one/",
         // TODO: Add more
-        description: "<p>Part of the Live-Platform Team; delivering DevExp</p>",
+        description: "<p>Part of the Thermal Management System. Delivering the Front Hex Unit</p>",
       },
       {
         company: "Tilda",
