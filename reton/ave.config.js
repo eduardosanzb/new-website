@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const config = {
   Layout: {
-    description: "Ave",
-    title: "Mamador",
-    title2: "Ave resume",
+    description: "Jose Alberto Vera Vigil",
+    title: "Resume",
+    title2: "Ave Resume",
     twitter: "Ufff we",
   },
   Navbar: {
@@ -12,7 +12,7 @@ const config = {
       "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
   MainBanner: {
-    bigText: "Jose Alberto",
+    bigText: "JOSE ALBERTO",
     firstName: "Jose Alberto",
     lastName: "Vera Vigil",
     description: `
@@ -28,8 +28,8 @@ const config = {
   About: {
     title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮",
     description: `
-    I was born in '91 and grew up in Puebla, Mexico.
-    After I finished studying as an automotive design engineer, I landed a job with Volkswagen, one of the big guys in the car industry. 
+    I was born in 1991 and grew up in Puebla, Mexico.
+    After I finished studying as an automotive design engineer, I started working on projects for Volkswagen. 
     Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.
     `,
     residence: "Eindhoven",
@@ -42,7 +42,7 @@ const config = {
         {
           title: "Product Development",
           description:
-            "Automotive components develpment, from concept to production.",
+            "Automotive components development, from concept to production.",
         },
         {
           title: "CAD Design",
