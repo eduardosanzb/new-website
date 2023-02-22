@@ -16,11 +16,13 @@ const config = {
     firstName: "Alberto",
     lastName: "Vera Vigil",
     description: `
-     Hola soy un putito y me encanta la poronguita. With 5+ years of profound and
+     Hola soy un putito y me encanta la poronguita. 
+     estoy muy mamammamamamamaoooooo
+     With 5+ years of profound and
       wide-ranging experience. Expert in developing web & mobile
       solutions. 🇲🇽 🌮
     `,
-    twitter: "eduardosanzb",
+    twitter: "jordanperteson",
     linkedin: "https://www.linkedin.com/in/eduardosanzb/",
     github: "eduardosanzb",
     clipboard: "npx eduardosanzb",
