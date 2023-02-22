@@ -36,10 +36,10 @@ const config = {
         </p><p>
           That's me doing (and almost dying in the process) a 140 kilos clean.
         </p>
-    ),
     residence: "Eindhoven",
     addiction: "☕️ (ESPRESSO)",
     email: "a.ve.vigil@gmail.com",
+    ),
   },
   WhatIDo: {
     rows: [
