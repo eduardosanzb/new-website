@@ -110,30 +110,6 @@ const config = {
             </p>
         ),
       },
-      {
-        company: "Lucasian Labs México S.C.",
-        date: "2016",
-        title: "Software Engineer Junior",
-        linkedin: "https://www.linkedin.com/company/lucasian-labs-mexico",
-        description: () => (
-          <p>
-            A boutique enterprise & governmental software company with offices
-            in Mexico city. Mostly angular.js & Java EE with springboot
-          </p>
-        ),
-      },
-      {
-        company: "Weetsi Solutions",
-        date: "2015",
-        title: "Software Engineer Internship",
-        linkedin: "https://www.linkedin.com/company/weetsi-com/about/",
-        description: () => (
-          <p>
-            Enterprise and consumer mobile app development company. We used
-            ionic with angular.js & firebase
-          </p>
-        ),
-      },
     ],
   },
   ContactForm: {
