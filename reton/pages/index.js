@@ -12,6 +12,7 @@ import Ave from "../ave.config";
 const config = process.env.WHO === 'Ave' ? Ave : Eduardo
 const imgUrl = process.env.WHO === 'Ave' ? 'ave' : 'banner-main1'
 console.log(config)
+console.log(process.env.WHO)
 const Index = () => {
   return (
     <React.Fragment>
