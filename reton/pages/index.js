@@ -9,17 +9,18 @@ import Footer from "../components/LandingPageOne/Footer";
 import Eduardo from "../eduardo.config";
 import Ave from "../ave.config";
 
-const config = process.env.WHO === 'Ave' ? Ave : Eduardo
-const imgUrl = process.env.WHO === 'Ave' ? 'ave' : 'banner-main1'
-console.log(config)
-console.log(process.env.WHO)
+const config = process.env.WHO === "Ave" ? Ave : Ave;
+const imgUrl = process.env.WHO === "Ave" ? "ave" : "banner-main1";
+
+console.log(config);
+console.log(imgUrl);
 const Index = () => {
   return (
     <React.Fragment>
       <Navbar config={config.Navbar} />
 
       <div className="main-area">
-        <div className={"main-left-img "+imgUrl}>
+        <div className={"main-left-img " + imgUrl}>
           <img src={`/images/banner/${imgUrl}.webp`} alt="Image" />
         </div>
 
