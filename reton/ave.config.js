@@ -31,6 +31,7 @@ const config = {
     Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.
     Outside of work you can find me in the GYM or at CorssFit competitions.
     That's me doing (and almost dying in the process) a 140 kilos clean.
+    I also enjoy reading and backpacking (like any other millennial, haha).
     `,
     residence: "Eindhoven",
     addiction: "☕️ (espresso)",
