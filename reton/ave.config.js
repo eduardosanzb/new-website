@@ -61,11 +61,10 @@ const config = {
           `,
         },
         {
-          title: "Testing",
+          title: "Team Player",
           description: `
-           A professional delivers working code. code that works. only
-           through testing you can deliver confident code, professional
-           code
+          As a team player, I excel in multi-disciplinary and flexible environments, 
+          where my collaborative skills and adaptability contribute to our shared goals.
           `,
         },
       ],
