@@ -36,7 +36,7 @@ const config = {
         </p>
     `,
     residence: "Eindhoven",
-    addiction: "☕️ (ESPRESSO)",
+    addiction: "☕️ (espresso)",
     email: "a.ve.vigil@gmail.com",
   },
   WhatIDo: {
