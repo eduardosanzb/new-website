@@ -17,8 +17,7 @@ const config = {
     lastName: "Vera Vigil",
     description: `
     I am a passionate Mechanical Engineer excited for innovation & technology.
-     With 7+ years of profound and
-      wide-ranging experience. Expert in product design and development in the automotive industry.
+    With 7+ years of profound and wide-ranging experience. Expert in product design and development in the automotive industry.
     `,
     linkedin: "https://www.linkedin.com/in/jose-vigil/",
     github: "AveVigil",
@@ -27,11 +26,11 @@ const config = {
   About: {
     title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮",
     description: `
-    <p>I was born in 1991 and grew up in Puebla, Mexico.
+    <p> I was born in 1991 and grew up in Puebla, Mexico.
         After I finished studying as an automotive design engineer, I started working on projects for Volkswagen.
-        Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.</p>
-        <p>Outside of work you can find me in the GYM or at CorssFit competitions.
-        That's me doing (and almost dying in the process) a 140 kilos clean.</p>
+        Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready. </p>
+        <p> Outside of work you can find me in the GYM or at CorssFit competitions.
+        That's me doing (and almost dying in the process) a 140 kilos clean. </p>
     `,
     residence: "Eindhoven",
     addiction: "☕️ (espresso)",
