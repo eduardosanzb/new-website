@@ -9,7 +9,7 @@ const config = {
   },
   Navbar: {
     cvLink:
-      "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
+      "https://raw.githubusercontent.com/eduardosanzb/new-website/master/CV_Jose%20Alberto%20Vera%20Vigil.pdf",
   },
   MainBanner: {
     bigText: "ALBERTO",
