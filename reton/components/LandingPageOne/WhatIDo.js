@@ -17,16 +17,16 @@ const WhatIDo = ({ config }) => {
         {
           config.rows.map((items, index) => (
             <div className="row" key={index}>
-              {items.map((a,i) => (
+              {items.map((row,i) => (
 
                 <div key={i} className="col-sm-6 col-lg-6">
                   <div className="what-item container">
-                    <i className={`${config?.icon ?? defaultIconName} icon`}></i>
+                    <i className={`${row?.icon ?? defaultIconName} icon`}></i>
                     <h3>
-                      <a target="_blank">{a.title}</a>
+                      <a target="_blank">{row.title}</a>
                     </h3>
                     <p>
-                      {a.description}
+                      {row.description}
                     </p>
                   </div>
                 </div>
