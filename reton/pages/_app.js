@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import "react-useanimations/lib/bookmark";
 
-import "../public/css/style.css";
+import "../public/css/style.scss";
 import "../public/css/responsive.css";
 
 import Layout from "../components/_App/Layout";
