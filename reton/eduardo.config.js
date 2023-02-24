@@ -52,7 +52,8 @@ const config = {
           description: `
             Looking for a balance in speed, performance & scalability. The
             problem defines the pattern, 3factor, DDD, micro*, etc.
-          `
+          `,
+          icon: "bx bxs-mobile bx-tada",
         },
       ],
       [
@@ -61,7 +62,8 @@ const config = {
           description: `
             Because the process matters, the ability to quickly iterate is
             the differentiator between innovation and staling
-          `
+          `,
+          icon: "bx bxs-analyse bx-spin",
         },
         {
           title: "Testing",
@@ -69,7 +71,8 @@ const config = {
            a professional delivers working code. code that works. only
            through testing you can deliver confident code, professional
            code
-          `
+          `,
+          icon: "bx bxs-check-shield",
         },
       ]
     ]

@@ -1,7 +1,7 @@
 import React from "react";
 
 const WhatIDo = ({ config }) => {
-  const iconName = "bx bxs-mobile bx-tada icon"
+  const defaultIconName = "flaticon-global";
   return (
     <div id="whatido" className="what-area border-bottom pt-100 pb-70">
       <div className="common-right-text">
@@ -21,7 +21,7 @@ const WhatIDo = ({ config }) => {
 
                 <div key={i} className="col-sm-6 col-lg-6">
                   <div className="what-item container">
-                    <i className={`${iconName}`}></i>
+                    <i className={`${config?.icon ?? defaultIconName} icon`}></i>
                     <h3>
                       <a target="_blank">{a.title}</a>
                     </h3>
