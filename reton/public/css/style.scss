@@ -65,6 +65,7 @@ p {
 }
 a {
   transition: $transition;
+  color: $orange-color;
 
   &:hover {
     text-decoration: none;
