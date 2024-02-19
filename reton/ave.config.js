@@ -2,80 +2,76 @@ import Link from "next/link";
 
 const config = {
   Layout: {
-    description: "Ave",
-    title: "Mamador",
-    title2: "Ave resume",
-    twitter: "Ufff we"
+    description: "José Alberto Vera Vigil",
+    title: "Resume",
+    title2: "Ave Resume",
+    twitter: "Ufff we",
   },
   Navbar: {
-    cvLink: "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
+    cvLink:
+      "https://raw.githubusercontent.com/eduardosanzb/new-website/master/CV_Jose%20Alberto%20Vera%20Vigil.pdf",
   },
   MainBanner: {
-    bigText: "AVE",
-    firstName: "Alberto",
+    bigText: "ALBERTO",
+    firstName: "José Alberto",
     lastName: "Vera Vigil",
     description: `
-      Hello I am a passionate <span>Software Engineer</span> excited
-      for innovation & technology. With 5+ years of profound and
-      wide-ranging experience. Expert in developing web & mobile
-      solutions. 🇲🇽 🌮
+    I am a passionate Mechanical Engineer excited for innovation & technology.
+    With 7+ years of profound and wide-ranging experience. Expert in product design and development in the automotive industry.
     `,
-    twitter: "eduardosanzb",
-    linkedin: "https://www.linkedin.com/in/eduardosanzb/",
-    github: 'eduardosanzb',
-    clipboard: "npx eduardosanzb",
+    linkedin: "https://www.linkedin.com/in/jose-vigil/",
+    github: "AveVigil",
+    clipboard: "npx AveVigil",
   },
   About: {
-    title: "I'm from Mexico and I love 🌮 & coding<",
+    title: "I'm from Mexico and I love CrossFit, reading, hiking & 🌮",
     description: `
-      I was born in 1993 and grew up in Puebla, 🇲🇽. After graduating as
-      a software engineer I decided to move to CDMX 🇲🇽 and later on
-      Berlin 🇩🇪 the land of techno & cold weather. I freaking 💖 it.
-      <i>
-        (Yeah I know, I'm a city boy and I took the midnight train goin'
-        to kotti)
-      </i>
+    I was born in 1991 and grew up in Puebla, Mexico.
+    After I finished studying as an automotive design engineer, I started working on projects for Volkswagen.
+    Then, I joined Lightyear's mission, where I helped develop the world's first long-range solar electric vehicle that's production-ready.
+    Outside of work you can find me in the GYM or at CorssFit competitions.
+    That's me doing (and almost dying in the process) a 140 kilos clean.
+    I also enjoy reading and backpacking (like any other millennial, haha).
     `,
-    residence: "Berlin",
-    addiction: "☕️ (CAFÉ)",
-    email: "eduardosanzb@gmail.com",
+    residence: "Eindhoven",
+    addiction: "☕️ (espresso)",
+    email: "a.ve.vigil@gmail.com",
   },
   WhatIDo: {
     rows: [
       [
         {
-          title: "Web development",
-          description: "Full stack dev specialized in react, react-native, node and go"
+          title: "Product Development",
+          description:
+            "Automotive components development, from concept to production.",
         },
         {
-          title: "Software architecture",
+          title: "CAD Design",
           description: `
-            Looking for a balance in speed, performance & scalability. The
-            problem defines the pattern, 3factor, DDD, micro*, etc.
-          `
+            3D modeling & 2D drawings in CATIA V5 and 3DExperience.
+          `,
         },
       ],
       [
         {
-          title: "Agile development",
+          title: "Agile Development",
           description: `
             Because the process matters, the ability to quickly iterate is
-            the differentiator between innovation and staling
-          `
+            the differentiator between innovation and staling.
+          `,
         },
         {
-          title: "Testing",
+          title: "Team Player",
           description: `
-           a professional delivers working code. code that works. only
-           through testing you can deliver confident code, professional
-           code
-          `
+          As a team player, I excel in multi-disciplinary and flexible environments, 
+          where my collaborative skills and adaptability contribute to our shared goals.
+          `,
         },
-      ]
-    ]
+      ],
+    ],
   },
   MyExperience: {
-    title: "I Have <span>8+</span> Years Of Experience",
+    title: "I Have <span>7+</span> Years Of Experience",
     description: `
             Proven ability to adapt & deliver under stressful circumstances
             while maintaining the team spirit. Always learning and in pursuit of
@@ -83,110 +79,44 @@ const config = {
     `,
     rows: [
       {
-        company: "Unity",
-        date: "2022 - Present",
-        title: "Senior Software Engineer",
-        linkedin: "https://www.linkedin.com/company/unity/",
+        company: "Lightyear",
+        date: "2018 - Present",
+        title: "Mechanical Engineer",
+        linkedin: "https://lightyear.one/",
         // TODO: Add more
-        description: "<p>Part of the Live-Platform Team; delivering DevExp</p>",
+        description: "<p> Part of the <strong>Thermal Management System.</strong> Delivering the <i>Front Hex Unit</i> starting from scratch, while working within a multidisciplinary & driven team. Built several driving prototyes <strong>(Lightyear P0, Lightyear VP, Lightyear DV1-16).</strong> </p>",
       },
       {
-        company: "Tilda",
-        date: "2021 - 2021(closed)",
-        title: "Lead Software Engineer",
-        linkedin: "https://www.linkedin.com/company/tildahealth",
+        company: "EDAG Aguascalientes",
+        date: "2018",
+        title: "Mechanical Engineer",
+        linkedin: "https://mx.edag.com/en/",
         description: () => (
-          <div>
+          <p>
+            Development of fastening and positioning devices for the integration of the new Mercedes-Benz A-Class 
+            production line into the current Infiniti QX50 production line.
+          </p>
+        ),
+      },
+      {
+        company: "EDAG Puebla",
+        date: "2015 - 2018",
+        title: "CAD Design Engineer",
+        linkedin: "https://mx.edag.com/en/",
+        description: () => (
             <p>
-              Finally!!! Serverless +
-              <Link href="https://hasura.io/">
-                <a target="_blank"> Hasura</a>
-              </Link>
-              + NextJS + K8s + Knative
+             Design and development of the <strong>Doors-in-White</strong> for the new Jetta A7 platform and the Passat GP2 facelift.
+             Workstay in Wolfsburg, Germany during 2015-2016. 
             </p>
-            <p>A dream stack!!!</p>
-          </div>
         ),
       },
-      {
-        company: "The Boston Consulting Group",
-        date: "2018 - 2021",
-        title: "Lead Engineer",
-        linkedin: "https://www.linkedin.com/company/bcg-platinion",
-        description: () => (
-          <div>
-            <p>
-              Multiple projects, each of them is like starting a new job!
-              React, react, react and more react (ofc{" "}
-              <strong>typescript</strong>).
-              <Link href="https://hasura.io/">
-                <a target="_blank"> Hasura</a>
-              </Link>
-              💘 , node, go, terraform and a lot of other toys!
-            </p>
-          </div>
-        ),
-      },
-      {
-        company: "Optilyz",
-        date: "2017 - 2018",
-        title: "Senior Fullstack Developer",
-        linkedin: "https://www.linkedin.com/company/optilyz",
-        description: () => (
-          <p>
-            A cool marketing platform, manipulating huge amounts of csv
-            using node (lots of stream/Transform) and a very cool
-            react+redux+sagas <span>`fork()`</span>
-          </p>
-        ),
-      },
-      {
-        company: "Generation (from McKinsey & Company)",
-        date: "2016 - 2017",
-        title: "Software Engineer",
-        linkedin: "https://www.linkedin.com/company/generationorg",
-        description: () => (
-          <p>
-            Started a non-profit program via McKinsey & Company social initiative.
-            Cross working with Strategic consultants, Experts in education, Teachers and Students to
-            develop an educational platform with a microservices architecture. We
-            used node.js & react
-          </p>
-        ),
-      },
-      {
-        company: "Lucasian Labs México S.C.",
-        date: "2016",
-        title: "Software Engineer Junior",
-        linkedin: "https://www.linkedin.com/company/lucasian-labs-mexico",
-        description: () => (
-          <p>
-            A boutique enterprise & governmental software company with
-            offices in Mexico city. Mostly angular.js & Java EE with
-            springboot
-          </p>
-        ),
-      },
-      {
-        company: "Weetsi Solutions",
-        date: "2015",
-        title: "Software Engineer Internship",
-        linkedin: "https://www.linkedin.com/company/weetsi-com/about/",
-        description: () => (
-          <p>
-            Enterprise and consumer mobile app development company. We
-            used ionic with angular.js & firebase
-          </p>
-        ),
-      },
-    ]
+    ],
   },
   ContactForm: {
-    email: "eduardosanzb@gmail.com",
-    twitter: "eduardosanzb",
-    linkedin: "https://www.linkedin.com/in/eduardosanzb/",
-    github: 'eduardosanzb',
+    email: "a.ve.vigil@gmail.com",
+    linkedin: "https://www.linkedin.com/in/jose-vigil/",
+    github: "AveVigil",
   },
-}
+};
 
-export default config
+export default config;

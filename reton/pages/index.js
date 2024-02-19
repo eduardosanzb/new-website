@@ -9,7 +9,6 @@ import Footer from "../components/LandingPageOne/Footer";
 import Eduardo from "../eduardo.config";
 import Ave from "../ave.config";
 
-
 const Index = () => {
 const config = process.env.NEXT_PUBLIC_WHO === 'Ave' ? Ave : Eduardo
 const imgUrl = process.env.NEXT_PUBLIC_WHO === 'Ave' ? 'ave' : 'banner-main1'
@@ -19,7 +18,7 @@ const imgUrl = process.env.NEXT_PUBLIC_WHO === 'Ave' ? 'ave' : 'banner-main1'
       <Navbar config={config.Navbar} />
 
       <div className="main-area">
-        <div className={"main-left-img "+imgUrl}>
+        <div className={"main-left-img " + imgUrl}>
           <img src={`/images/banner/${imgUrl}.webp`} alt="Image" />
         </div>
 
