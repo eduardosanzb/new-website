@@ -5,24 +5,26 @@ const config = {
     description: "🇲🇽 Edu's",
     title: "Mexican Software engineer, focused on web technologies.",
     title2: "Eduardo's Bautista resume",
-    twitter: "Eduardo's Bautista, come by if you are curious."
+    twitter: "Eduardo's Bautista, come by if you are curious.",
   },
   Navbar: {
-    cvLink: "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
+    cvLink:
+      "https://raw.githubusercontent.com/eduardosanzb/eduardosanzb/master/cv.pdf",
   },
   MainBanner: {
     bigText: "EDUARDO",
     firstName: "Eduardo",
     lastName: "Sánchez Bautista",
     description: `
-      Hello I am a passionate <span>Software Engineer</span> excited
-      for innovation & technology. With 5+ years of profound and
-      wide-ranging experience. Expert in developing web & mobile
-      solutions. 🇲🇽 🌮
+      Hello there! I'm a seasoned <span>Software Engineer</span> with a passion for turning ideas into reality. 
+With over 8 years of hands-on experience, I specialize in creating robust web and mobile platforms. 
+What sets me apart is my knack for balancing technical prowess with a practical mindset – whether it's diving deep into intricate details or taking strategic shortcuts when needed. 
+
+My journey includes contributing to both startup ventures and established industry leaders. Let's team up and bring your innovative platforms to life! 🇲🇽 🌮
     `,
     twitter: "eduardosanzb",
     linkedin: "https://www.linkedin.com/in/eduardosanzb/",
-    github: 'eduardosanzb',
+    github: "eduardosanzb",
     clipboard: "npx eduardosanzb",
   },
   About: {
@@ -36,7 +38,7 @@ const config = {
         to kotti)
       </i>
     `,
-    residence: "Berlin",
+    residence: "Berlin (Moabit)",
     addiction: "☕️ (CAFÉ)",
     email: "eduardosanzb@gmail.com",
   },
@@ -44,38 +46,40 @@ const config = {
     rows: [
       [
         {
-          title: "Web development",
-          description: "Full stack dev specialized in react, react-native, node and go"
+          title: "Web Development",
+          description:
+            "Specialized in full-stack development using React, React Native, Node, and Go.",
         },
         {
-          title: "Software architecture",
-          description: `
-            Looking for a balance in speed, performance & scalability. The
-            problem defines the pattern, 3factor, DDD, micro*, etc.
-          `,
+          title: "Software Architecture",
+          description:
+            "Balancing speed, performance, and scalability. I adopt patterns like 3factor, DDD, micro*, etc.",
           icon: "bx bxs-mobile bx-tada",
         },
       ],
       [
         {
-          title: "Agile development",
-          description: `
-            Because the process matters, the ability to quickly iterate is
-            the differentiator between innovation and staling
-          `,
+          title: "Agile Development",
+          description:
+            "Prioritizing the process because quick iterations differentiate innovation from stagnation.",
           icon: "bx bxs-analyse bx-spin",
         },
         {
           title: "Testing",
-          description: `
-           a professional delivers working code. code that works. only
-           through testing you can deliver confident code, professional
-           code
-          `,
+          description:
+            "A professional delivers working and confident code through rigorous testing practices.",
           icon: "bx bxs-check-shield",
         },
-      ]
-    ]
+      ],
+      [
+        {
+          title: "Product-Oriented Engineering",
+          description:
+            "Passionate about crafting solutions that align with product goals, blending creativity with technical expertise.",
+          icon: "bx bxs-rocket",
+        },
+      ],
+    ],
   },
   MyExperience: {
     title: "I Have <span>8+</span> Years Of Experience",
@@ -91,8 +95,13 @@ const config = {
         title: "Senior Software Engineer",
         linkedin: "https://www.linkedin.com/company/unity/",
         // TODO: Add more
-        description: "<p>Part of the Live-Platform Team; delivering DevExp</p>",
+        description: `
+    <p>As a Senior Software Engineer at Unity, I am an integral part of the Services Foundation Team, contributing to the advancement of developer experience (DevExp).</p>
+    <p>In my current role, I specialize in the API Gateway, where I tackle intricate challenges at scale. I thrive on solving complex problems and optimizing system performance.</p>
+    <p>Tools and technologies in my toolkit include Kubernetes (k8s), GraphQL, Go, Node.js, Istio, Envoy, C++, CI/CD practices, and Terraform. These tools empower me to create robust solutions that meet Unity's high standards for innovation and scalability.</p>
+  `,
       },
+
       {
         company: "Tilda",
         date: "2021 - 2021(closed)",
@@ -112,7 +121,6 @@ const config = {
         ),
       },
       {
-
         company: "The Boston Consulting Group",
         date: "2018 - 2021",
         title: "Lead Engineer",
@@ -120,9 +128,8 @@ const config = {
         description: () => (
           <div>
             <p>
-              Multiple projects, each of them is like starting a new job!
-              React, react, react and more react (ofc{" "}
-              <strong>typescript</strong>).
+              Multiple projects, each of them is like starting a new job! React,
+              react, react and more react (ofc <strong>typescript</strong>).
               <Link href="https://hasura.io/">
                 <a target="_blank"> Hasura</a>
               </Link>
@@ -138,9 +145,9 @@ const config = {
         linkedin: "https://www.linkedin.com/company/optilyz",
         description: () => (
           <p>
-            A cool marketing platform, manipulating huge amounts of csv
-            using node (lots of stream/Transform) and a very cool
-            react+redux+sagas <span>`fork()`</span>
+            A cool marketing platform, manipulating huge amounts of csv using
+            node (lots of stream/Transform) and a very cool react+redux+sagas{" "}
+            <span>`fork()`</span>
           </p>
         ),
       },
@@ -151,10 +158,10 @@ const config = {
         linkedin: "https://www.linkedin.com/company/generationorg",
         description: () => (
           <p>
-            Started a non-profit program via McKinsey & Company social initiative.
-            Cross working with Strategic consultants, Experts in education, Teachers and Students to
-            develop an educational platform with a microservices architecture. We
-            used node.js & react
+            Started a non-profit program via McKinsey & Company social
+            initiative. Cross working with Strategic consultants, Experts in
+            education, Teachers and Students to develop an educational platform
+            with a microservices architecture. We used node.js & react
           </p>
         ),
       },
@@ -165,9 +172,8 @@ const config = {
         linkedin: "https://www.linkedin.com/company/lucasian-labs-mexico",
         description: () => (
           <p>
-            A boutique enterprise & governmental software company with
-            offices in Mexico city. Mostly angular.js & Java EE with
-            springboot
+            A boutique enterprise & governmental software company with offices
+            in Mexico city. Mostly angular.js & Java EE with springboot
           </p>
         ),
       },
@@ -178,19 +184,19 @@ const config = {
         linkedin: "https://www.linkedin.com/company/weetsi-com/about/",
         description: () => (
           <p>
-            Enterprise and consumer mobile app development company. We
-            used ionic with angular.js & firebase
+            Enterprise and consumer mobile app development company. We used
+            ionic with angular.js & firebase
           </p>
         ),
       },
-    ]
+    ],
   },
   ContactForm: {
     email: "eduardosanzb@gmail.com",
     twitter: "eduardosanzb",
     linkedin: "https://www.linkedin.com/in/eduardosanzb/",
-    github: 'eduardosanzb',
+    github: "eduardosanzb",
   },
-}
+};
 
-export default config
+export default config;
